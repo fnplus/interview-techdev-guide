@@ -1,4 +1,4 @@
-## Welcome to the Algorithms-Hacktoberfest by Fnplus
+## Interview Footsteps to crack your Dream Company
 
 ![fnplus](https://user-images.githubusercontent.com/25124428/47038568-6b991580-d19f-11e8-8e63-c1067fc04378.jpg)
 
@@ -12,7 +12,7 @@ This repository contains examples of various algorithms written on different pro
 [![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/0)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/1)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/2)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/3)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/4)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/5)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/6)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/7)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/7)
 
 
-## Implemented Data Structures
+## Important Data Structures
 
 | Data Structure                                                                                  | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
@@ -25,7 +25,7 @@ This repository contains examples of various algorithms written on different pro
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
 | [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)                              | [:octocat:](euclidean_gcd/C)          |  [:octocat:](euclidean_gcd/C)         | [:octocat:](euclidean_gcd/Java)        | [:octocat:](euclidean_gcd/Python)     |
 
-#
+
 | Searching and Sorting                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
 | [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                                            |                                       |                                       |                                       | [:octocat:](quicksort/Python)         |
@@ -56,16 +56,11 @@ This repository contains examples of various algorithms written on different pro
 | [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search) |   |       |      |             | 
 | [Depth First Search](https://en.wikipedia.org/wiki/Depth-first_search)|   |       |      |              |
 
-## Sample Run
 
-| Language        | Steps                                                                  |
-| --------------- | ---------------------------------------------------------------------- |
-| Python          | <pre>python [filename.py]</pre>                                        |
-| C               | <pre>gcc [filename.c]<br>./a.out  # unix<br>a.exe  # windows</pre>     |
-| CPP             | <pre>g++ [filename.cpp]<br>./a.out # unix<br>a.exe # windows</pre>     |
-| Java            | <pre>javac [filename.java]<br>java [filename]</pre>                    |
-| golang          | <pre>go build [filename.go]<br>[./filename]</pre>                     |
+## Coding Practices / Learning Footsteps
 
+### Maths  
+   * [Project Euler](https://projecteuler.net)
 
 
 ## Contributing
@@ -81,6 +76,16 @@ This repository contains examples of various algorithms written on different pro
 
 See [Contributor.md](Contributor.md).
 
+## Sample Run
+
+| Language        | Steps                                                                  |
+| --------------- | ---------------------------------------------------------------------- |
+| Python          | <pre>python [filename.py]</pre>                                        |
+| C               | <pre>gcc [filename.c]<br>./a.out  # unix<br>a.exe  # windows</pre>     |
+| CPP             | <pre>g++ [filename.cpp]<br>./a.out # unix<br>a.exe # windows</pre>     |
+| Java            | <pre>javac [filename.java]<br>java [filename]</pre>                    |
+| golang          | <pre>go build [filename.go]<br>[./filename]</pre>                      |
+
 ## Support
 
 Feel free to contact us at our [E-mail](support@fnplus.tech), we'd be happy to help!
@@ -90,3 +95,6 @@ Feel free to contact us at our [E-mail](support@fnplus.tech), we'd be happy to h
 Only project maintainers should merge a PR.
 Other members can add their reviews to a PR but the merging should be done by only a project maintainer.
 
+## Authors
+ * [Saurav Jaiswal](http://sauravjaiswalsj.me)
+ * [Abhishek Kumar](www.abhishekkumar.dev)
