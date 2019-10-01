@@ -1,4 +1,4 @@
-## Interview Footsteps to crack your dream Company
+## Interview Footsteps to crack your Dream Company
 
 ![fnplus](https://user-images.githubusercontent.com/25124428/47038568-6b991580-d19f-11e8-8e63-c1067fc04378.jpg)
 
