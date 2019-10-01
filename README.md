@@ -39,8 +39,7 @@ This repository contains examples of various algorithms written on different pro
 | [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)                          |                                       | [:octocat:](binary_search/Cpp)        |                                       | [:octocat:](binary_search/Python)     |
 | [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)                                        | [:octocat:](bubble_sort/C)            | [:octocat:](bubble_sort/Cpp)          |                                       |                                       |
 | [fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)                                           | [:octocat:](shell_sort/C)             |                                       |                                       | [:octocat:](shell_sort/Python)        |
-| [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                                             |                                       |                                       |                                       | [:octocat:](heap_sort/python)        |
-                                    |                                       | [:octocat:](heap_sort/python)        |
+| [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                                             |                                      |                                       |                                       | [:octocat:](heap_sort/python)        |
 
 
 ## Sample Run
@@ -53,6 +52,25 @@ This repository contains examples of various algorithms written on different pro
 | Java            | <pre>javac [filename.java]<br>java [filename]</pre>                    |
 | golang          | <pre>go build [filename.go]<br>[./filename]</pre>                     |
 
+## Trees
+
+| Alogrithm        | C   | C++ | Java | Python |  JavaScript|
+| --------------- | -----|------|------|---------------|-------------- |
+| Pre-Order Traversal |   |       |      |             |                |
+| Post-Order Traversal |   |       |      |              |                |
+| In-Order Traversal |   |       |      |             |                |
+| Binary Search Tree |   |       |      |             |                |
+| Height of the Tree |   |       |      |              |                |
+| Depth of the Tree |   |       |      |             |                |
+| AVL Tree |   |       |      |             |                |
+| Spanning Tree |   |       |      |             |                |
+
+## Graphs
+
+| Alogrithm        | C   | C++ | Java | Python |  JavaScript|
+| --------------- | -----|------|------|---------------|-------------- |
+| Breadth First Search |   |       |      |             |                |
+| Depth First Search|   |       |      |              |                |
 
 ## Contributing
 
