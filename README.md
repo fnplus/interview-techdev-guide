@@ -22,7 +22,7 @@ This repository contains examples of various algorithms written on different pro
 ## Important Algorithms
 
 # Maths  
-   * Project Euler[https://projecteuler.net]
+   * [Project Euler](https://projecteuler.net)
 
 | Maths                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
