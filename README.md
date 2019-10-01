@@ -38,25 +38,24 @@ This repository contains examples of various algorithms written on different pro
 | [fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)                                           | [:octocat:](shell_sort/C)             |                                       |                                       | [:octocat:](shell_sort/Python)        |
 | [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                                             |                                      |                                       |                                       | [:octocat:](heap_sort/python)        |
 
-### Trees
 
-| Alogrithm        | C   | C++ | Java | Python |  JavaScript|
-| --------------- | -----|------|------|---------------|-------------- |
-| Pre-Order Traversal |   |       |      |             |                |
-| Post-Order Traversal |   |       |      |              |                |
-| In-Order Traversal |   |       |      |             |                |
-| Binary Search Tree |   |       |      |             |                |
-| Height of the Tree |   |       |      |              |                |
-| Depth of the Tree |   |       |      |             |                |
-| AVL Tree |   |       |      |             |                |
-| Spanning Tree |   |       |      |             |                |
+| Tree        | C   | CPP | Java | Python |
+| --------------- | -----|------|------|---------------|
+| [Pre-Order Traversal](https://en.wikipedia.org/wiki/Tree_traversal) |   |       |      |             |                
+| [Post-Order Traversal](https://en.wikipedia.org/wiki/Tree_traversal) |   |       |      |              |                
+| [In-Order Traversal](https://en.wikipedia.org/wiki/Tree_traversal)|   |       |      |             |                
+| [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree) |   |       |      |             |                
+| [Height of the Tree]() |   |       |      |              |                |
+| [Depth of the Tree]() |   |       |      |             |                
+| [AVL Tree](https://en.wikipedia.org/wiki/AVL_tree) |   |       |      |             |                
+| [Spanning Tree](https://en.wikipedia.org/wiki/Spanning_tree) |   |       |      |             |                
 
-### Graphs
 
-| Alogrithm        | C   | C++ | Java | Python |  JavaScript|
-| --------------- | -----|------|------|---------------|-------------- |
-| Breadth First Search |   |       |      |             |                |
-| Depth First Search|   |       |      |              |                |
+| Graph        | C   | CPP | Java | Python |
+| --------------- | -----|------|------|---------------|
+| [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search) |   |       |      |             | 
+| [Depth First Search](https://en.wikipedia.org/wiki/Depth-first_search)|   |       |      |              |
+
 
 ## Coding Practices / Learning Footsteps
 
