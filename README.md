@@ -39,7 +39,7 @@ This repository contains examples of various algorithms written on different pro
 | [Linear Search](https://en.wikipedia.org/wiki/Linear_search)                          |                                       | [:octocat:](binary_search/Cpp)        |                                       | [:octocat:](binary_search/Python)     |
 | [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)                          |                                       | [:octocat:](binary_search/Cpp)        |                                       | [:octocat:](binary_search/Python)     |
 
-| Tree        | C   | CPP | Java | Python |
+| Tree traversal  | C   | CPP | Java | Python |
 | --------------- | -----|------|------|---------------|
 | [Pre-Order Traversal](https://en.wikipedia.org/wiki/Tree_traversal) |   |       |      |             |                
 | [Post-Order Traversal](https://en.wikipedia.org/wiki/Tree_traversal) |   |       |      |              |                
@@ -51,7 +51,7 @@ This repository contains examples of various algorithms written on different pro
 | [Spanning Tree](https://en.wikipedia.org/wiki/Spanning_tree) |   |       |      |             |                
 
 
-| Graph        | C   | CPP | Java | Python |
+| Graph Traversal    | C   | CPP | Java | Python |
 | --------------- | -----|------|------|---------------|
 | [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search) |   |       |      |             | 
 | [Depth First Search](https://en.wikipedia.org/wiki/Depth-first_search)|   |       |      |              |
