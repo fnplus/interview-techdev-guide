@@ -21,14 +21,11 @@ This repository contains examples of various algorithms written on different pro
 
 ## Important Algorithms
 
-# Maths  
-   * [Project Euler](https://projecteuler.net)
-
 | Maths                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
 | [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)                              | [:octocat:](euclidean_gcd/C)          |  [:octocat:](euclidean_gcd/C)         | [:octocat:](euclidean_gcd/Java)        | [:octocat:](euclidean_gcd/Python)     |
 
-#
+
 | Searching and Sorting                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
 | [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                                            |                                       |                                       |                                       | [:octocat:](quicksort/Python)         |
@@ -52,7 +49,7 @@ This repository contains examples of various algorithms written on different pro
 | Java            | <pre>javac [filename.java]<br>java [filename]</pre>                    |
 | golang          | <pre>go build [filename.go]<br>[./filename]</pre>                     |
 
-## Trees
+### Trees
 
 | Alogrithm        | C   | C++ | Java | Python |  JavaScript|
 | --------------- | -----|------|------|---------------|-------------- |
@@ -65,12 +62,17 @@ This repository contains examples of various algorithms written on different pro
 | AVL Tree |   |       |      |             |                |
 | Spanning Tree |   |       |      |             |                |
 
-## Graphs
+### Graphs
 
 | Alogrithm        | C   | C++ | Java | Python |  JavaScript|
 | --------------- | -----|------|------|---------------|-------------- |
 | Breadth First Search |   |       |      |             |                |
 | Depth First Search|   |       |      |              |                |
+
+## Coding Practices / Learning Footsteps
+
+### Maths  
+   * [Project Euler](https://projecteuler.net)
 
 ## Contributing
 
