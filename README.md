@@ -21,9 +21,15 @@ This repository contains examples of various algorithms written on different pro
 
 ## Important Algorithms
 
-| Searching and Sorting                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
+#Maths  
+
+| Maths                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
 | [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)                              | [:octocat:](euclidean_gcd/C)          |  [:octocat:](euclidean_gcd/C)         | [:octocat:](euclidean_gcd/Java)        | [:octocat:](euclidean_gcd/Python)     |
+
+#
+| Searching and Sorting                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
+|:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
 | [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                                            |                                       |                                       |                                       | [:octocat:](quicksort/Python)         |
 | [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                                          |                                       |                                       |                                       | [:octocat:](merge_sort/Python)        |
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                  | [:octocat:](insertion_sort/C)         | [:octocat:](insertion_sort/Cpp)       |                                       | [:octocat:](insertion_sort/Python)    |
