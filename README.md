@@ -12,7 +12,7 @@ This repository contains examples of various algorithms written on different pro
 [![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/0)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/1)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/2)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/3)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/4)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/5)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/6)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/7)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/7)
 
 
-## Implemented Data Structures
+## Important Data Structures
 
 | Data Structure                                                                                  | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
@@ -37,17 +37,6 @@ This repository contains examples of various algorithms written on different pro
 | [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)                                        | [:octocat:](bubble_sort/C)            | [:octocat:](bubble_sort/Cpp)          |                                       |                                       |
 | [fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)                                           | [:octocat:](shell_sort/C)             |                                       |                                       | [:octocat:](shell_sort/Python)        |
 | [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                                             |                                      |                                       |                                       | [:octocat:](heap_sort/python)        |
-
-
-## Sample Run
-
-| Language        | Steps                                                                  |
-| --------------- | ---------------------------------------------------------------------- |
-| Python          | <pre>python [filename.py]</pre>                                        |
-| C               | <pre>gcc [filename.c]<br>./a.out  # unix<br>a.exe  # windows</pre>     |
-| CPP             | <pre>g++ [filename.cpp]<br>./a.out # unix<br>a.exe # windows</pre>     |
-| Java            | <pre>javac [filename.java]<br>java [filename]</pre>                    |
-| golang          | <pre>go build [filename.go]<br>[./filename]</pre>                     |
 
 ### Trees
 
@@ -74,6 +63,7 @@ This repository contains examples of various algorithms written on different pro
 ### Maths  
    * [Project Euler](https://projecteuler.net)
 
+
 ## Contributing
 
 1. Fork it!
@@ -86,6 +76,16 @@ This repository contains examples of various algorithms written on different pro
 6. Submit a pull request :smile:
 
 See [Contributor.md](Contributor.md).
+
+## Sample Run
+
+| Language        | Steps                                                                  |
+| --------------- | ---------------------------------------------------------------------- |
+| Python          | <pre>python [filename.py]</pre>                                        |
+| C               | <pre>gcc [filename.c]<br>./a.out  # unix<br>a.exe  # windows</pre>     |
+| CPP             | <pre>g++ [filename.cpp]<br>./a.out # unix<br>a.exe # windows</pre>     |
+| Java            | <pre>javac [filename.java]<br>java [filename]</pre>                    |
+| golang          | <pre>go build [filename.go]<br>[./filename]</pre>                      |
 
 ## Support
 
