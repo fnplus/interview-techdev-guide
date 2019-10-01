@@ -97,4 +97,4 @@ Other members can add their reviews to a PR but the merging should be done by on
 
 ## Authors
  * [Saurav Jaiswal](http://sauravjaiswalsj.me)
- * [Abhishek Kumar](www.abhishekkumar.dev)
+ * [Abhishek Kumar](https://www.abhishekkumar.dev)
