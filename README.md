@@ -1,4 +1,4 @@
-## Interview Footsteps to crack your Dream Company
+## Interview Footsteps to crack your Dream Company [:octocat:](binary_search/Cpp)
 
 ![fnplus](https://user-images.githubusercontent.com/25124428/47038568-6b991580-d19f-11e8-8e63-c1067fc04378.jpg)
 
@@ -29,15 +29,15 @@ This repository contains examples of various algorithms written on different pro
 
 | Searching and Sorting                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
-| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                                            |                                       |                                       |                                       | [:octocat:](quicksort/Python)         |
-| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                                          |                                       |                                       |                                       | [:octocat:](merge_sort/Python)        |
-| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                  | [:octocat:](insertion_sort/C)         | [:octocat:](insertion_sort/Cpp)       |                                       | [:octocat:](insertion_sort/Python)    |
-| [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)                                    |                                       |                                       |                                       | [:octocat:](counting_sort/Python)     |
-| [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)                                          |                                       |                                       |                                       | [:octocat:](radix_sort/Python)        |
-| [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)                                        | [:octocat:](bubble_sort/C)            | [:octocat:](bubble_sort/Cpp)          |                                       |                                       |
-| [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                                             |                                      |                                       |                                       | [:octocat:](heap_sort/python)        |
-| [Linear Search](https://en.wikipedia.org/wiki/Linear_search)                          |                                       | [:octocat:](binary_search/Cpp)        |                                       | [:octocat:](binary_search/Python)     |
-| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)                          |                                       | [:octocat:](binary_search/Cpp)        |                                       | [:octocat:](binary_search/Python)     |
+| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                                            |                                       |                                       |                                       |          |
+| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                                          |                                       |                                       |                                       |         |
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                  |          |        |                                       |     |
+| [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)                                    |                                       |                                       |                                       |      |
+| [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)                                          |                                       |                                       |                                       |         |
+| [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)                                        |            |           |                                       |                                       |
+| [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                                             |                                      |                                       |                                       |        |
+| [Linear Search](https://en.wikipedia.org/wiki/Linear_search)                          |                                       |         |                                       |      |
+| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)                          |                                       |         |                                       |      |
 
 | Tree traversal  | C   | CPP | Java | Python |
 | --------------- | -----|------|------|---------------|
