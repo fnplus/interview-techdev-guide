@@ -16,8 +16,7 @@ This repository contains examples of various algorithms written on different pro
 
 | Data Structure                                                                                  | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
-
-| [Dynamic array](https://en.wikipedia.org/wiki/Dynamic_array)                               |                                       |                                       |               |              |
+| [Dynamic array](https://en.wikipedia.org/wiki/Dynamic_array)                                          |                                       |                                       |               |              |
 | [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                               |                                       |                                       |               |              |
 | [Singly Linked List](https://en.wikipedia.org/wiki/Linked_list)                               |                                       |                                       |               |              |
 | [Double Linked List](https://en.wikipedia.org/wiki/Doubly_linked_list)                               |                                       |                                       |               |              |
