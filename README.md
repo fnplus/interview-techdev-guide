@@ -25,7 +25,7 @@ This repository contains examples of various algorithms written on different pro
 | [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))                               |                                       |                                       |               |              |
 | [Fibonacci Heaps](https://en.wikipedia.org/wiki/Fibonacci_heap)                               |                                       |                                       |               |              |
 | [Disjoints Sets](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                               |                                       |                                       |               |              |
-| [Adjacency matrix](https://en.wikipedia.org/wiki/List_of_data_structures#Hash-based_structures))                               |                                       |                                       |               |              |
+| [Adjacency matrix](https://en.wikipedia.org/wiki/List_of_data_structures#Hash-based_structures)                               |                                       |                                       |               |              |
 | [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))                               |                                       |                 |                                       |                                       |
 | [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue)                               |                                       |                 |                                       |                                       |
 
