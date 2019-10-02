@@ -79,8 +79,21 @@ This repository contains examples of various algorithms written on different pro
 
 ### Maths  
    * [Project Euler](https://projecteuler.net)
+  * [LeetCode](https://leetcode.com/)
+  * [InterviewBit](https://www.interviewbit.com/)
+  * [Codility](https://codility.com/)
+  * [HackerRank](https://www.hackerrank.com/)
+  * [Project Euler](https://projecteuler.net/)
+  * [Spoj](https://spoj.com/)
+  * [Google Code Jam practice problems](https://code.google.com/codejam/contests.html)
+  * [HackerEarth](https://www.hackerearth.com/)
+  * [Top Coder](https://www.topcoder.com/)
+  * [CodeChef](https://www.codechef.com/)
+  * [Codewars](https://www.codewars.com/)
+  * [CodeSignal](https://codesignal.com)
+  * [CodeKata](http://codekata.com/)
+  * [Firecode](https://www.firecode.io/)
    
-
 ## Video Lectures
 * Data Structures
     * [UC Berkeley Data Structures](https://www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
@@ -95,10 +108,60 @@ This repository contains examples of various algorithms written on different pro
 * [Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https://www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
 * [Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&)
 
+## Guides
+
+* [GeeksForGeeks – A CS portal for geeks](http://www.geeksforgeeks.org/)
+* [Learneroo – Algorithms](https://www.learneroo.com/subjects/8)
+* [Top Coder tutorials](http://www.topcoder.com/tc?d1=tutorials&d2=alg_index&module=Static)
+* [Infoarena training path](http://www.infoarena.ro/training-path) (RO)
+* Steven & Felix Halim – [Increasing the Lower Bound of Programming Contests](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=118) (UVA Online Judge)
+
+## Courses
+
+* MIT – [Hacking a Google Interview](https://courses.csail.mit.edu/iap/interview/materials.php)
+* [Coderust 2.0 ($$)](https://www.educative.io/collection/5642554087309312/5679846214598656?authorName=Coderust)
+* [Interview Cake ($$$)](https://www.interviewcake.com/) [[review](https://www.quora.com/How-helpful-was-the-paid-program-from-Interview-Cake-in-your-interview-preparation)]
+* [How to Ace the Software Engineering Interview ($$)](https://interviewsteps.com/products/how-to-ace-the-software-engineering-interview)
+* [Grokking the System Design Interview ($$)](https://www.educative.io/collection/5668639101419520/5649050225344512)
+
+## Sites
+
+* [Coding for Interviews](http://codingforinterviews.com/)
+* [Career Cup](https://www.careercup.com/)
+* [HiredInTech](https://www.hiredintech.com/)
+* [Codela](https://www.codela.net/)
+* [TestDome](https://www.testdome.com/)
+* [FreeCodeCamp](https://www.freecodecamp.com/) *"Learn to code and help nonprofits"*
+* [Dynamic Programming Practice Problems](https://people.cs.clemson.edu/~bcdean/dp_practice/)
+
+## Videos
+
+* [How to: Work at Google – Candidate Coaching Session for Technical Interviewing [45:45]](https://www.youtube.com/watch?v=oWbUtlUhwa8)
+* Gayle McDowell – [Cracking the Coding Interview [1:14:24]](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+* Gayle McDowell - [Cracking the Coding Interview (examples) [9:05]](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+* [Google Recruiters Share Technical Interview Tips [31:06]](https://www.youtube.com/watch?v=qc1owf2-220)
+* [Google Recruiters Share Non-Technical Interview Tips [28:23]](https://www.youtube.com/watch?v=DINxNbBOEoI)
+* Moishe Lettvin – [What I Learned Doing 250 Interviews at Google [1:00:24]](https://www.youtube.com/watch?v=r8RxkpUvxK0)
+* Sean Lee – [How to Get a Job at the Big 4 [42:34]](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+* Ladies Storm Hackathons – [Interview Prep Round 1: Strings, Arrays, Linked Lists [1:12:39]](https://www.youtube.com/watch?v=fIpliB-ton8)
+* Randall Koutnik – [Rethinking the Developer Career Path [25:03]](https://www.youtube.com/watch?v=yIPbE7BssOs)
+
+## System design
+
+* [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+* [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
+  * This is a paid course but has several free previews such as [Designing Instagram](https://www.educative.io/courses/grokking-the-system-design-interview/m2yDVZnQ8lG)
+* [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)
+* Raph Levien – [Rope Science](https://github.com/google/xi-editor/blob/master/doc/rope_science/intro.md)
+* [Architecture of Open Source Applications](http://aosabook.org/en/index.html)
+* [How should I prepare system design questions for Google/Facebook interview?](http://www.quora.com/Job-Interviews/How-should-I-prepare-system-design-questions-for-Google-Facebook-Interview)
+* Jeff Atwood – [How Good an Estimator Are You?](http://blog.codinghorror.com/how-good-an-estimator-are-you/)
+* [0xAX/linux-insides](https://github.com/0xAX/linux-insides)
 
 ## Computer Science News
 * [Hacker News](https://news.ycombinator.com/)
 * [Lobsters](https://lobste.rs/)
+
 
 ## Contributing
 
