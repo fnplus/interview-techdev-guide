@@ -33,7 +33,9 @@ This repository contains examples of various algorithms written on different pro
 | Maths                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
 | [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)                              |           |          |        |      |
-| [fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)                                           |              |                                       |                                       |         |
+| [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)                                           |              |                                       |                                       |         |
+| [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number)                                           |              |                                       |                                       |         |
+| [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)                                           |              |                                       |                                       |         |
 
  ### Quick Sort
 ![quicksort](https://user-images.githubusercontent.com/25124428/66062547-3f68d700-e55f-11e9-8096-65e21ad0be63.gif) 
