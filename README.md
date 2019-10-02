@@ -16,15 +16,15 @@ This repository contains examples of various algorithms written on different pro
 
 | Data Structure                                                                                  | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
-| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))                               |                                       | [:octocat:](queue/Cpp)                |                                       |                                       |
-| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                               |                                       |                                       | [:octocat:](stack/Java)               | [:octocat:](stack/Python)             |
+| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))                               |                                       |                 |                                       |                                       |
+| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                               |                                       |                                       |               |              |
 
 ## Important Algorithms
 
 | Maths                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
-| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)                              | [:octocat:](euclidean_gcd/C)          |  [:octocat:](euclidean_gcd/C)         | [:octocat:](euclidean_gcd/Java)        | [:octocat:](euclidean_gcd/Python)     |
-| [fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)                                           | [:octocat:](shell_sort/C)             |                                       |                                       | [:octocat:](shell_sort/Python)        |
+| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)                              |           |          |        |      |
+| [fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)                                           |              |                                       |                                       |         |
 
 
 | Searching and Sorting                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
@@ -48,20 +48,47 @@ This repository contains examples of various algorithms written on different pro
 | [Height of the Tree]() |   |       |      |              |                |
 | [Depth of the Tree]() |   |       |      |             |                
 | [AVL Tree](https://en.wikipedia.org/wiki/AVL_tree) |   |       |      |             |                
-| [Spanning Tree](https://en.wikipedia.org/wiki/Spanning_tree) |   |       |      |             |                
+| [Spanning Tree](https://en.wikipedia.org/wiki/Spanning_tree) |   |       |      |             |       
+| [Segment Tree](https://en.wikipedia.org/wiki/Segment_tree) |   |       |      |             |    
+| [Fenwick Tree](https://en.wikipedia.org/wiki/Fenwick_tree) |   |       |      |             |    
+| [Trie](https://en.wikipedia.org/wiki/Trie) |   |       |      |             |    
 
 
 | Graph Traversal    | C   | CPP | Java | Python |
 | --------------- | -----|------|------|---------------|
 | [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search) |   |       |      |             | 
 | [Depth First Search](https://en.wikipedia.org/wiki/Depth-first_search)|   |       |      |              |
-
+| [Topological Sort](https://en.wikipedia.org/wiki/Topological_sorting)|   |       |      |              |
+| [Kruskals Algorithms](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)|   |       |      |              |
+| [Prim's Algorithms](https://en.wikipedia.org/wiki/Prim%27s_algorithm)|   |       |      |              |
+| [Belmon Ford Algorithms](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)|   |       |      |              |
+| [Floyd-Warshall Algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)|   |       |      |              |
+| [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)|   |       |      |              |
 
 ## Coding Practices / Learning Footsteps
 
 ### Maths  
    * [Project Euler](https://projecteuler.net)
+   
 
+## Video Lectures
+* Data Structures
+    * [UC Berkeley Data Structures](https://www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+    * [MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
+* Algorithms
+    * [MIT Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
+    * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+  
+## Interview Books
+* [Competitive Programming 3 - Steven Halim & Felix Halim](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
+* [Cracking The Coding Interview - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
+* [Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https://www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
+* [Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&
+
+
+## Computer Science News
+* [Hacker News](https://news.ycombinator.com/)
+* [Lobsters](https://lobste.rs/)
 
 ## Contributing
 
@@ -74,7 +101,8 @@ This repository contains examples of various algorithms written on different pro
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request :smile:
 
-See [Contributor.md](Contributor.md).
+See [Contributor.md](Contributor.md)
+
 
 ## Sample Run
 
