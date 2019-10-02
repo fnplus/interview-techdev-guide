@@ -79,9 +79,9 @@ This repository contains examples of various algorithms written on different pro
 | [Floyd-Warshall Algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)|   |       |      |              |
 | [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)|   |       |      |              |
 
-## Coding Practices / Learning Footsteps
+##  Learning Footsteps
 
-### Maths  
+### Coding Practices  
    * [Project Euler](https://projecteuler.net)
   * [LeetCode](https://leetcode.com/)
   * [InterviewBit](https://www.interviewbit.com/)
