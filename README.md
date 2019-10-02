@@ -1,7 +1,5 @@
 ## Interview Footsteps to crack your Dream Company [:octocat:](binary_search/Cpp)
 
-https://raw.githubusercontent.com/sauravjaiswalsj/interviews/master/Images/quicksort.gif
-
 ![fnplus](https://user-images.githubusercontent.com/25124428/47038568-6b991580-d19f-11e8-8e63-c1067fc04378.jpg)
 
 This repository is a part of [ HacktoberFest -an event organised by DigitalOcean ](https://hacktoberfest.digitalocean.com/). 
