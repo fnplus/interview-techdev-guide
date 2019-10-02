@@ -35,7 +35,7 @@ This repository contains examples of various algorithms written on different pro
 | [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)                              |           |          |        |      |
 | [fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)                                           |              |                                       |                                       |         |
 
-
+ ### Quick Sort
 ![quicksort](https://user-images.githubusercontent.com/25124428/66062547-3f68d700-e55f-11e9-8096-65e21ad0be63.gif) 
 
 
