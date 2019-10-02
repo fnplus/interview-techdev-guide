@@ -1,17 +1,17 @@
-## Welcome to the interview footsteps to crack your dream company [:octocat:]
+# Welcome to the interview resources (footsteps) by FnPlus Community to crack your dream company :octocat:
 
 <p align="center">
 <img src="https://i.imgur.com/GOXelrQ.gif" width="600" height="600" center="true" />
 </p>
 
-This repository is a part of [HacktoberFest -an event organised by DigitalOcean](https://hacktoberfest.digitalocean.com/). 
+This repository is a part of [HacktoberFest-an event organised by DigitalOcean](https://hacktoberfest.digitalocean.com/). 
 You are requested to create your profile using the above link to be a part of it.
 
 This repository contains examples of various algorithms written on different programming languages...
 
 ## Contributors
 
-
+They will be updated soon!
 
 ## Important Data Structures
 
@@ -38,9 +38,6 @@ This repository contains examples of various algorithms written on different pro
 | [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)                                           |              |                                       |                                       |         |
 | [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number)                                           |              |                                       |                                       |         |
 | [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)                                           |              |                                       |                                       |         |
-
- ### Quick Sort
-![quicksort](https://user-images.githubusercontent.com/25124428/66062547-3f68d700-e55f-11e9-8096-65e21ad0be63.gif) 
 
 
 | Searching and Sorting                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
@@ -81,7 +78,7 @@ This repository contains examples of various algorithms written on different pro
 | [Floyd-Warshall Algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)|   |       |      |              |
 | [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)|   |       |      |              |
 
-##  Learn from curated resources (Footsteps) by FnPlus Community
+##  Curated resources (Footsteps) by FnPlus Community
 
 ### Coding Practices  
   * [Project Euler](https://projecteuler.net)
@@ -199,6 +196,7 @@ See [Contributor.md](Contributor.md)
 ## Support
 
 Feel free to contact us at our [E-mail](support@fnplus.tech), we'd be happy to help!
+Check out our app called [footsteps](footsteps.dev) which helps you keep a log of your online learning and inspire others to follow it!
 
 ## Notes
 
@@ -208,3 +206,4 @@ Other members can add their reviews to a PR but the merging should be done by on
 ## Authors
  * [Saurav Jaiswal](http://sauravjaiswalsj.me)
  * [Abhishek Kumar](https://www.abhishekkumar.dev)
+ * [Abhishek Uniyal](https://github.com/xlogix)
