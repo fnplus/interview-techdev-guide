@@ -1,5 +1,7 @@
 ## Interview Footsteps to crack your Dream Company [:octocat:](binary_search/Cpp)
 
+https://raw.githubusercontent.com/sauravjaiswalsj/interviews/master/Images/quicksort.gif
+
 ![fnplus](https://user-images.githubusercontent.com/25124428/47038568-6b991580-d19f-11e8-8e63-c1067fc04378.jpg)
 
 This repository is a part of [ HacktoberFest -an event organised by DigitalOcean ](https://hacktoberfest.digitalocean.com/). 
@@ -10,7 +12,6 @@ This repository contains examples of various algorithms written on different pro
 ## Contributors
 
 [![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/0)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/1)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/2)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/3)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/4)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/5)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/6)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/7)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/7)
-
 
 ## Important Data Structures
 
@@ -35,6 +36,9 @@ This repository contains examples of various algorithms written on different pro
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
 | [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)                              |           |          |        |      |
 | [fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)                                           |              |                                       |                                       |         |
+
+
+![quicksort](https://user-images.githubusercontent.com/25124428/66062547-3f68d700-e55f-11e9-8096-65e21ad0be63.gif) 
 
 
 | Searching and Sorting                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
