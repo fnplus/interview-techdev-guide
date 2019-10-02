@@ -203,6 +203,6 @@ Only project maintainers should merge a PR.
 Other members can add their reviews to a PR but the merging should be done by only a project maintainer.
 
 ## Authors
- * [Saurav Jaiswal](http://sauravjaiswalsj.me)
+ * [Saurav Jaiswal](https://github.com/sauravjaiswalsj)
  * [Abhishek Kumar](https://www.abhishekkumar.dev)
  * [Abhishek Uniyal](https://github.com/xlogix)
