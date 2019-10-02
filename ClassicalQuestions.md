@@ -118,7 +118,6 @@
 │   ├── multiplyString.java
 │   ├── oneEditDistance.java
 │   ├── palindromePermutation.java
-│   ├── README.md
 │   ├── reverseVowelsOfAString.java
 │   ├── romanToInteger.java
 │   ├── validPalindrome.java
@@ -145,5 +144,5 @@
     ├── reverseString.java
     └── sortColors.java
 
-18 directories, 124 files
+
 ```
