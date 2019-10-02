@@ -1,15 +1,17 @@
-## Interview Footsteps to crack your Dream Company [:octocat:](binary_search/Cpp)
+## Welcome to the interview footsteps to crack your dream company [:octocat:]
 
-![fnplus](https://user-images.githubusercontent.com/25124428/47038568-6b991580-d19f-11e8-8e63-c1067fc04378.jpg)
+<p align="center">
+<img src="https://i.imgur.com/GOXelrQ.gif" width="600" height="600" center="true" />
+</p>
 
-This repository is a part of [ HacktoberFest -an event organised by DigitalOcean ](https://hacktoberfest.digitalocean.com/). 
+This repository is a part of [HacktoberFest -an event organised by DigitalOcean](https://hacktoberfest.digitalocean.com/). 
 You are requested to create your profile using the above link to be a part of it.
 
 This repository contains examples of various algorithms written on different programming languages...
 
 ## Contributors
 
-[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/0)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/1)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/2)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/3)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/4)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/5)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/6)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/images/7)](https://sourcerer.io/fame/xlogix/fnplus/Algorithms-Hacktoberfest/links/7)
+
 
 ## Important Data Structures
 
@@ -79,10 +81,10 @@ This repository contains examples of various algorithms written on different pro
 | [Floyd-Warshall Algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)|   |       |      |              |
 | [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)|   |       |      |              |
 
-##  Learning Footsteps
+##  Learn from curated resources (Footsteps) by FnPlus Community
 
 ### Coding Practices  
-   * [Project Euler](https://projecteuler.net)
+  * [Project Euler](https://projecteuler.net)
   * [LeetCode](https://leetcode.com/)
   * [InterviewBit](https://www.interviewbit.com/)
   * [Codility](https://codility.com/)
@@ -98,7 +100,8 @@ This repository contains examples of various algorithms written on different pro
   * [CodeKata](http://codekata.com/)
   * [Firecode](https://www.firecode.io/)
    
-## Video Lectures
+### Video Lectures
+
 * Data Structures
     * [UC Berkeley Data Structures](https://www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
     * [MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
@@ -106,13 +109,14 @@ This repository contains examples of various algorithms written on different pro
     * [MIT Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
     * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
   
-## Interview Books
+### Interview Books
+
 * [Competitive Programming 3 - Steven Halim & Felix Halim](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
 * [Cracking The Coding Interview - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
 * [Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https://www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
 * [Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&)
 
-## Guides
+### Guides
 
 * [GeeksForGeeks – A CS portal for geeks](http://www.geeksforgeeks.org/)
 * [Learneroo – Algorithms](https://www.learneroo.com/subjects/8)
@@ -120,7 +124,7 @@ This repository contains examples of various algorithms written on different pro
 * [Infoarena training path](http://www.infoarena.ro/training-path) (RO)
 * Steven & Felix Halim – [Increasing the Lower Bound of Programming Contests](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=118) (UVA Online Judge)
 
-## Courses
+### Courses
 
 * MIT – [Hacking a Google Interview](https://courses.csail.mit.edu/iap/interview/materials.php)
 * [Coderust 2.0 ($$)](https://www.educative.io/collection/5642554087309312/5679846214598656?authorName=Coderust)
@@ -128,7 +132,7 @@ This repository contains examples of various algorithms written on different pro
 * [How to Ace the Software Engineering Interview ($$)](https://interviewsteps.com/products/how-to-ace-the-software-engineering-interview)
 * [Grokking the System Design Interview ($$)](https://www.educative.io/collection/5668639101419520/5649050225344512)
 
-## Sites
+### Sites
 
 * [Coding for Interviews](http://codingforinterviews.com/)
 * [Career Cup](https://www.careercup.com/)
@@ -138,7 +142,7 @@ This repository contains examples of various algorithms written on different pro
 * [FreeCodeCamp](https://www.freecodecamp.com/) *"Learn to code and help nonprofits"*
 * [Dynamic Programming Practice Problems](https://people.cs.clemson.edu/~bcdean/dp_practice/)
 
-## Videos
+### Videos
 
 * [How to: Work at Google – Candidate Coaching Session for Technical Interviewing [45:45]](https://www.youtube.com/watch?v=oWbUtlUhwa8)
 * Gayle McDowell – [Cracking the Coding Interview [1:14:24]](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
@@ -150,7 +154,7 @@ This repository contains examples of various algorithms written on different pro
 * Ladies Storm Hackathons – [Interview Prep Round 1: Strings, Arrays, Linked Lists [1:12:39]](https://www.youtube.com/watch?v=fIpliB-ton8)
 * Randall Koutnik – [Rethinking the Developer Career Path [25:03]](https://www.youtube.com/watch?v=yIPbE7BssOs)
 
-## System design
+### System Design
 
 * [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
 * [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
@@ -162,7 +166,8 @@ This repository contains examples of various algorithms written on different pro
 * Jeff Atwood – [How Good an Estimator Are You?](http://blog.codinghorror.com/how-good-an-estimator-are-you/)
 * [0xAX/linux-insides](https://github.com/0xAX/linux-insides)
 
-## Computer Science News
+### Computer Science News
+
 * [Hacker News](https://news.ycombinator.com/)
 * [Lobsters](https://lobste.rs/)
 
@@ -189,7 +194,7 @@ See [Contributor.md](Contributor.md)
 | C               | <pre>gcc [filename.c]<br>./a.out  # unix<br>a.exe  # windows</pre>     |
 | CPP             | <pre>g++ [filename.cpp]<br>./a.out # unix<br>a.exe # windows</pre>     |
 | Java            | <pre>javac [filename.java]<br>java [filename]</pre>                    |
-| golang          | <pre>go build [filename.go]<br>[./filename]</pre>                      |
+| Golang          | <pre>go build [filename.go]<br>[./filename]</pre>                      |
 
 ## Support
 
