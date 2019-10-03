@@ -195,8 +195,8 @@ See [Contributor.md](https://github.com/fnplus/interview-techdev-guide/blob/mast
 
 ## Support
 
-Feel free to contact us at our [E-mail](support@fnplus.tech), we'd be happy to help!
-Check out our app called [footsteps](footsteps.dev) which helps you keep a log of your online learning and inspire others to follow it!
+Feel free to contact us at our [E-mail](mailto:support@fnplus.tech), we'd be happy to help!
+Check out our app called [footsteps](https://footsteps.dev) which helps you keep a log of your online learning and inspire others to follow it!
 
 ## Notes
 
