@@ -42,13 +42,14 @@ This repository contains examples of various algorithms written on different pro
 
 | Searching and Sorting                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
-| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                                            |                                       |                                       |                                       |          |
-| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                                          |                                       |                                       |                                       |         |
+| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                                            |:octocat:                                       |                                       | :octocat:                                      |          |
+| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                                          |:octocat:                                       |                                       |                                       | :octocat:        |
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                  |          |        |                                       |     |
 | [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)                                    |                                       |                                       |                                       |      |
 | [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)                                          |                                       |                                       |                                       |         |
 | [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)                                        |            |           |                                       |                                       |
 | [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                                             |                                      |                                       |                                       |        |
+| [Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)                                             |                                      |                                       |                                       | :octocat:       |
 | [Linear Search](https://en.wikipedia.org/wiki/Linear_search)                          |                                       |         |                                       |      |
 | [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)                          |                                       |         |                                       |      |
 
