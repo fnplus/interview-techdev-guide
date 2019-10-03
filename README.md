@@ -179,7 +179,7 @@ They will be updated soon!
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request :smile:
 
-See [Contributor.md](Contributor.md)
+See [Contributor.md](https://github.com/fnplus/interview-techdev-guide/blob/master/CONTRIBUTING.md)
 
 
 ## Sample Run
