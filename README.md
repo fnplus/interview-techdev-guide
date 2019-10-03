@@ -42,15 +42,16 @@ This repository contains examples of various algorithms written on different pro
 
 | Searching and Sorting                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
-| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                                            |                                       |                                       |                                       |          |
-| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                                          |                                       |                                       |                                       |         |
+| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                                            |:octocat:                                       |                                       | :octocat:                                      |          |
+| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                                          |:octocat:                                       |:octocat:                                       |                                       | :octocat:        |
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                  |          |        |                                       |     |
 | [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)                                    |                                       |                                       |                                       |      |
-| [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)                                          |                                       |                                       |                                       |         |
+| [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)                                          | :octocat:                                      |                                       |                                       |         |
 | [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)                                        |            |           |                                       |                                       |
 | [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                                             |                                      |                                       |                                       |        |
+| [Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)                                             |                                      |                                       |                                       | :octocat:       |
 | [Linear Search](https://en.wikipedia.org/wiki/Linear_search)                          |                                       |         |                                       |      |
-| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)                          |                                       |         |                                       |      |
+| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)                          |:octocat:                                       |         |                                       |      |
 
 | Tree traversal  | C   | CPP | Java | Python |
 | --------------- | -----|------|------|---------------|
@@ -194,8 +195,8 @@ See [Contributor.md](https://github.com/fnplus/interview-techdev-guide/blob/mast
 
 ## Support
 
-Feel free to contact us at our [E-mail](support@fnplus.tech), we'd be happy to help!
-Check out our app called [footsteps](footsteps.dev) which helps you keep a log of your online learning and inspire others to follow it!
+Feel free to contact us at our [E-mail](mailto:support@fnplus.tech), we'd be happy to help!
+Check out our app called [footsteps](https://footsteps.dev) which helps you keep a log of your online learning and inspire others to follow it!
 
 ## Notes
 
