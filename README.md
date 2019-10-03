@@ -11,7 +11,7 @@ This repository contains examples of various algorithms written on different pro
 
 ## Contributors
 
-They will be updated soon!
+[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/0)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/1)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/2)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/3)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/4)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/5)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/6)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/7)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/7)
 
 ## Important Data Structures
 
@@ -42,15 +42,16 @@ They will be updated soon!
 
 | Searching and Sorting                                                                                       | C                                     | CPP                                   | Java                                  | Python                                |
 |:----------------------------------------------------------------------------------------------- |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
-| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                                            |                                       |                                       |                                       |          |
-| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                                          |                                       |                                       |                                       |         |
+| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                                            |:octocat:                                       |                                       | :octocat:                                      |          |
+| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                                          |:octocat:                                       |:octocat:                                       |                                       | :octocat:        |
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                  |          |        |                                       |     |
 | [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)                                    |                                       |                                       |                                       |      |
-| [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)                                          |                                       |                                       |                                       |         |
+| [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)                                          | :octocat:                                      |                                       |                                       |         |
 | [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)                                        |            |           |                                       |                                       |
 | [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                                             |                                      |                                       |                                       |        |
+| [Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)                                             |                                      |                                       |                                       | :octocat:       |
 | [Linear Search](https://en.wikipedia.org/wiki/Linear_search)                          |                                       |         |                                       |      |
-| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)                          |                                       |         |                                       |      |
+| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)                          |:octocat:                                       |         |                                       |      |
 
 | Tree traversal  | C   | CPP | Java | Python |
 | --------------- | -----|------|------|---------------|
@@ -179,7 +180,7 @@ They will be updated soon!
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request :smile:
 
-See [Contributor.md](Contributor.md)
+See [Contributor.md](https://github.com/fnplus/interview-techdev-guide/blob/master/CONTRIBUTING.md)
 
 
 ## Sample Run
@@ -194,8 +195,8 @@ See [Contributor.md](Contributor.md)
 
 ## Support
 
-Feel free to contact us at our [E-mail](support@fnplus.tech), we'd be happy to help!
-Check out our app called [footsteps](footsteps.dev) which helps you keep a log of your online learning and inspire others to follow it!
+Feel free to contact us at our [E-mail](mailto:support@fnplus.tech), we'd be happy to help!
+Check out our app called [footsteps](https://footsteps.dev) which helps you keep a log of your online learning and inspire others to follow it!
 
 ## Notes
 
@@ -203,6 +204,6 @@ Only project maintainers should merge a PR.
 Other members can add their reviews to a PR but the merging should be done by only a project maintainer.
 
 ## Authors
- * [Saurav Jaiswal](http://sauravjaiswalsj.me)
+ * [Saurav Jaiswal](https://github.com/sauravjaiswalsj)
  * [Abhishek Kumar](https://www.abhishekkumar.dev)
  * [Abhishek Uniyal](https://github.com/xlogix)
