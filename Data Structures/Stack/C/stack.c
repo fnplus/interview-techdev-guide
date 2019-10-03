@@ -66,4 +66,5 @@ int main()
     printf("%d pushed to stack\n", 30);
 
     printf("%d popped from stack\n", pop(stack));
+    return 1;
 }
