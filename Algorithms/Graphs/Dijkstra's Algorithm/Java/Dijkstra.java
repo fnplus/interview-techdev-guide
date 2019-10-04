@@ -19,6 +19,9 @@ public class Dijkstra {
 
 static int countComplex = 0;
 
+
+
+
 public int selectionner(ArrayList<String> Sprime, int[] phi) {
 		// indice à retourner
 		int index = 0;
@@ -113,6 +116,12 @@ public static void main(String[] args) {
 		while (S_prime.size() != 0) { // S prime vide Condition arret
             // selectionner sommet suivant indice dans ArrayList
 			int IndexSommetSuiv = dijkstra.selectionner(S_prime, phi);
+
+            // sommet suivant
+			int SommetSuiv = Integer.valueOf(S_prime.get(IndexSommetSuiv)) - 1;
+
+			// Ajouter Sommet sortant de S prime à S
+			S.add(S_prime.get(IndexSommetSuiv));
 
         }
  }
