@@ -15,7 +15,6 @@ get_fibo(){
   fi
 }
 
-
 i=1
 
 while [ $i -lt 10 ]               #FINDING Fibbonacci number UPTO 10
@@ -23,4 +22,3 @@ while [ $i -lt 10 ]               #FINDING Fibbonacci number UPTO 10
      echo $(get_fibo $i)
      i=`expr $i + 1`
 done
-
