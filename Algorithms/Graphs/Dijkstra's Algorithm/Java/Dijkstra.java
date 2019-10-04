@@ -130,7 +130,28 @@ public static void main(String[] args) {
 			// Ajouter Successeur sommet suivant
 			ArrayList<Integer> succSommetSuiv = new ArrayList<>();
 
+            	for (int i = 0; i < matriceIncidence.length; i++) {
+
+				// condition selection sommet suivant est qui apparteint à S prime
+				if (matriceIncidence[SommetSuiv][i] == 1 && S_prime.contains(String.valueOf(i + 1))) {
+
+					succSommetSuiv.add(i); // Ajouter successeur d'un sommet
+				}
+				countComplex++;
+			}
+			for (int i = 0; i < succSommetSuiv.size(); i++) {
+
+				// phi(i) = min(phi(i),phi(j)+long(j,i)) i succSommet suivant j SommetSuiv
+				// podArc Matrice contenant la longeur
+				phi[succSommetSuiv.get(i)] = Math.min(phi[succSommetSuiv.get(i)],
+						phi[SommetSuiv] + poidArc[SommetSuiv][succSommetSuiv.get(i)]);
+				countComplex++;
+			}
+			countComplex++;
+		}
+	
+		System.out.print("\n Complexite Dijkstra= " + countComplex);
 
         }
- }
+   }
 }
