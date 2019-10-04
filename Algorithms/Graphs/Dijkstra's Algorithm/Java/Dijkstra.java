@@ -17,6 +17,10 @@ import java.util.Scanner;
  */
 public class Dijkstra {
 
+static int countComplex = 0;
+
+
+
 public static void main(String[] args) {
 	
 	    System.out.print("Dijikstra");
@@ -39,5 +43,45 @@ public static void main(String[] args) {
 		matriceIncidence = new int[nbSommet][nbSommet];
 		poidArc = new int[nbSommet][nbSommet];
 
-}
+        S.add("1");
+		phi[0] = 0;
+
+		for (int i = 0; i < nbSommet; i++) {
+
+			for (int j = 0; j < nbSommet; j++) {
+				System.out.print("\n Sommet " + (i + 1) + " est  Successeur de " + (j + 1));
+
+				// Inserer 1 si exitse succ 0 sinon Matrice incidence sommet sommet
+				matriceIncidence[i][j] = scan.nextInt();
+
+				if (matriceIncidence[i][j] == 1) { // Cout arc(i,j)
+					System.out.print("\n Cout = ");
+
+					poidArc[i][j] = scan.nextInt();
+
+				} else { // Si ya pas d'arc cout 0 poidArc[i][j] = 0;
+
+				}
+
+				if (j != 0 && i == 0 && matriceIncidence[i][j] == 1) {
+
+					// sommet successeur phi(succ)=Cout
+					phi[j] = phi[0] + poidArc[i][j];
+				} else {
+					if (i == 0 && j != 0) {
+
+						// ne sont pas des successeur dans infinig dans ce cas MAX ENTIER
+						phi[j] = Integer.MAX_VALUE;
+					}
+				}
+				countComplex++;
+			}
+			if (i != 0) {
+				// Ajouter Tout sommet du graphe sauf le premier départ
+				S_prime.add(String.valueOf(i + 1));
+			}
+			countComplex++;
+		}
+
+ }
 }
