@@ -54,8 +54,9 @@ class LLQueue:
         if self.rear == None:
             self.front = data_node
             self.rear = data_node
-        self.rear.next = data_node
-        self.rear = data_node
+        else:
+            self.rear.next = data_node
+            self.rear = data_node
         print("Inserted ", data)
         return
     
