@@ -17,7 +17,9 @@ import java.util.Scanner;
  */
 public class Dijkstra {
 
-			System.out.print("Dijikstra");
+public static void main(String[] args) {
+	
+	    System.out.print("Dijikstra");
 		Scanner scan = new Scanner(System.in);
 
 		ArrayList<String> S_prime = new ArrayList<>();
@@ -37,4 +39,5 @@ public class Dijkstra {
 		matriceIncidence = new int[nbSommet][nbSommet];
 		poidArc = new int[nbSommet][nbSommet];
 
+}
 }
