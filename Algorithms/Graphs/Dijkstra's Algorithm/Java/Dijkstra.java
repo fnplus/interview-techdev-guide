@@ -19,6 +19,31 @@ public class Dijkstra {
 
 static int countComplex = 0;
 
+public int selectionner(ArrayList<String> Sprime, int[] phi) {
+		// indice à retourner
+		int index = 0;
+
+		// Ajouter cout sommet qui se trouve dans phi en ce bason sur S prime
+		ArrayList<Integer> tabMinComparer = new ArrayList<>();
+
+		for (int i = 0; i < Sprime.size(); i++) {
+
+			tabMinComparer.add(phi[Integer.valueOf(Sprime.get(i)) - 1]);
+			countComplex++;
+		}
+
+		// Trier par order croissant
+		Collections.sort(tabMinComparer);
+
+		// Indice du sommet dans phi
+		for (int i = 0; i < phi.length; i++) {
+			if (phi[i] == tabMinComparer.get(0)) {
+				index = i;
+				break;
+			}
+			countComplex++;
+		}
+
 
 
 public static void main(String[] args) {
@@ -83,5 +108,12 @@ public static void main(String[] args) {
 			countComplex++;
 		}
 
+        Dijkstra dijkstra = new Dijkstra();
+
+		while (S_prime.size() != 0) { // S prime vide Condition arret
+            // selectionner sommet suivant indice dans ArrayList
+			int IndexSommetSuiv = dijkstra.selectionner(S_prime, phi);
+
+        }
  }
 }
