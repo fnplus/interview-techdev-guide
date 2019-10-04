@@ -123,6 +123,14 @@ public static void main(String[] args) {
 			// Ajouter Sommet sortant de S prime à S
 			S.add(S_prime.get(IndexSommetSuiv));
 
+            
+			// S <- S -{j}
+			S_prime.remove(IndexSommetSuiv);
+
+			// Ajouter Successeur sommet suivant
+			ArrayList<Integer> succSommetSuiv = new ArrayList<>();
+
+
         }
  }
 }
