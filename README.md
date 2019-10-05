@@ -13,6 +13,24 @@ This repository contains examples of various algorithms written on different pro
 
 [![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/0)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/1)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/2)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/3)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/4)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/5)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/6)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/7)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/7)
 
+## Contributing
+
+1. Have a look at open issues. They contain the list of algorithms/DS we plan
+to be implemented. Pick an unassigned issue.
+2. You can also create a new issue for an algorithm that is not in the list.
+3. **Make sure you are assigned for the issue.**
+4. Fork the repo!
+5. Clone the forked repository to local system.
+6. Create your feature branch: `git checkout -b my-new-feature`
+7. Be sure to not include any compiled binaries in the patch.
+8. Commit your changes: `git commit -am 'Add some feature'`.
+   Go through [Commit Messages guidelines](CONTRIBUTING.md#write-good-commit-messages)
+9. Push to the branch: `git push origin my-new-feature`
+While sending a PR make sure you follow one issue per PR rule.
+10. Submit a pull request :smile:
+
+See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techdev-guide/issues/151)
+
 ## Important Data Structures
 
 | Data Structure                                                                                  | C   | CPP | Java | Python |
@@ -167,19 +185,6 @@ This repository contains examples of various algorithms written on different pro
 
 * [Hacker News](https://news.ycombinator.com/)
 * [Lobsters](https://lobste.rs/)
-
-## Contributing
-
-1. Fork it!
-2. Clone the forked repository to local system.
-3. Create your feature branch: `git checkout -b my-new-feature`
-4. Commit your changes: `git commit -am 'Add some feature'`.
-   
-   Go through [Commit Messages guidelines](CONTRIBUTING.md#write-good-commit-messages)
-5. Push to the branch: `git push origin my-new-feature`
-6. Submit a pull request :smile:
-
-See [Contributor.md](https://github.com/fnplus/interview-techdev-guide/blob/master/CONTRIBUTING.md)
 
 ## Sample Run
 
