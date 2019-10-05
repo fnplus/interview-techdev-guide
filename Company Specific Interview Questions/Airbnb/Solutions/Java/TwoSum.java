@@ -1,4 +1,5 @@
 import java.util.*;
+// this is two sum for airbnb
 public class TwoSum {
     public static void main(String[] args){
 	    Scanner cin=new Scanner(System.in);
