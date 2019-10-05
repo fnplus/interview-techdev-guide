@@ -17,21 +17,29 @@ class SinglyLinkedList:
         return data
 
 
-    # def size():
+    def size(self):
+        save = self.start_node
+        i = 0
+        while save != None:
+            save = save.next
+            i += 1
+        return i
+
+    def remove(self, data):
+        if self.start_node.data == data:
+            self.start_node = self.start_node.next
+            return
+        node = self.start_node
+        while node.next != None:
+            if node.next.data == data:
+                break
+            node = node.next
+        if node.next != None:
+            node.next = node.next.next
+
 
     def get(self, idx):
         save = self.start_node
         for i in range(idx):
             save = save.next
         return save.data
-
-list = SinglyLinkedList()
-
-list.add('toto')
-list.add('tata')
-list.add('tutu')
-
-print(list.get(0))
-print(list.get(1))
-print(list.get(2))
-# and save != None
