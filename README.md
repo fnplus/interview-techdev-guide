@@ -11,7 +11,7 @@ This repository contains examples of various algorithms written on different pro
 
 ## Contributors
 
-[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/0)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/1)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/2)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/3)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/4)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/5)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/6)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/7)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/7)
+[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/0)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/1)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/2)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/3)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/4)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/5)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/6)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/7)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/7)(https://github.com/divyhshah)
 
 ## Contributing
 
@@ -54,7 +54,8 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 |:---------------------------------------------------------------------- |:---:|:---:|:----:|:------:|
 | [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)     |     |     |      |        |
 | [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)     |     |     |      |        |
-| [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number) |     |     |      |        |
+| [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number) |     |     |      |
+| [Armstrong-number](https://en.wikipedia.org/wiki/Palindromic_number)   |     |     |      |        |
 | [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)         |     |     |      |        |
 
 | Searching and Sorting                                                  | C         | CPP       | Java      | Python    |
