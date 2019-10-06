@@ -61,7 +61,7 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 |:---------------------------------------------------------------------- |:---------:|:---------:|:---------:|:---------:|
 | [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                   | :octocat: |           | :octocat: |           |
 | [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                 | :octocat: | :octocat: |           | :octocat: |
-| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)         |           |           |           |           |
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)         |           |           |           | :octocat: |
 | [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)           |           |           |           |           |
 | [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)                 | :octocat: |           |           |           |
 | [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)               |           |           |           |           |
