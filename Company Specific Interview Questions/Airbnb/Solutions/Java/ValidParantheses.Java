@@ -19,6 +19,7 @@ public class Paranthesis{
                     return false;
             }
         }
+        
             if(stack.isEmpty())
                 return true;
             else    
