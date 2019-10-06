@@ -77,10 +77,10 @@ public:
         }
 
         int l = get_size();
+        cout << heap_array[0];
         swap(heap_array[0], heap_array[l - 1]);
         heap_array.erase(heap_array.end() - 1);
         heapify(0);
-        cout << heap_array[0];
     }
 
     void heapify(int i) // index from which heapify should start in top-down approach
