@@ -1,0 +1,1 @@
+Finds the height of a binary tree rooted at t.
