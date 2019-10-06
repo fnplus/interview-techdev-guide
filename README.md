@@ -46,6 +46,7 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 | [Disjoints Sets](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                      |     |     |      |        |
 | [Adjacency matrix](https://en.wikipedia.org/wiki/List_of_data_structures#Hash-based_structures) |     |     |      |        |
 | [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))                               |     |     |      |        |
+[Circular Queue](https://en.wikipedia.org/wiki/Circular_buffer)                               |     |     |      |        |
 | [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue)                                  |     |     |      |        |
 
 ## Important Algorithms
