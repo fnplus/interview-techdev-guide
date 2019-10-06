@@ -23,6 +23,5 @@ int main(){
     else {
         cout << string1 << " is a palindrome" << endl; 
     }
-    system("pause");
     return 0;
 }
