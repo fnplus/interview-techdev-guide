@@ -9,7 +9,7 @@ class Fibonacci {
         count = sc.nextInt();
         System.out.println(firstValue);
         System.out.println(secondValue);
-        
+      
         for ( int i = 2 ; i < count ; i++ )
         {
             nextValue = firstValue + secondValue;
@@ -19,4 +19,3 @@ class Fibonacci {
         }
     }
 }
-
