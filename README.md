@@ -50,12 +50,12 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 
 ## Important Algorithms
 
-| Maths                                                                  | C   | CPP | Java | Python |
-|:---------------------------------------------------------------------- |:---:|:---:|:----:|:------:|
-| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)     |     |     |      |        |
-| [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)     |     |     |      |        |
-| [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number) |     |     |      |        |
-| [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)         |     |     |      |        |
+| Maths                                                                  | C   | CPP | Java | Python    |
+|:---------------------------------------------------------------------- |:---:|:---:|:----:|:---------:|
+| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)     |     |     |      |           |
+| [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)     |     |     |      |           |
+| [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number) |     |     |      |           |
+| [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)         |     |     |      | :octocat: |
 
 | Searching and Sorting                                                  | C         | CPP       | Java      | Python    |
 |:---------------------------------------------------------------------- |:---------:|:---------:|:---------:|:---------:|
