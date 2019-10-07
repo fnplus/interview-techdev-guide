@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class mazepath {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -12,7 +11,7 @@ public class mazepath {
            System.out.println('Enter the rows');
             int m=s.nextInt();
             
-           System.out.println('Enter the rows');
+           System.out.println('Enter the columns');
 	        int n=s.nextInt();
 	        int count1=count( 1 , n ,1 , m , 0);
 	        System.out.println(count1);
