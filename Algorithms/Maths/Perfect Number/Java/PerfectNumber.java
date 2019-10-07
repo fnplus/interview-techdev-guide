@@ -1,59 +1,37 @@
-import java.io.*; 
-import java.util.*; 
-   
-public class PerfectNumber { 
+public class PerfectNumber {
 
-    public static boolean isPalindrome(int n)  
-    {  
-        // if divisible by 11 then true  
-        if (n % 11 == 0)  
-        {  
-            return true;  
-        }  
-      
-        // if not divisible by 11  
-        return false;  
+    static boolean isPerfect(int n) {
+        // the smallest perfect number is 6 [1]
+        // [1] https://oeis.org/A000396
+        if (n < 6) {
+            return false;
+        }
+
+        // this is just an optimization, since it's proved [2] that any possible
+        // odd perfect number must be greater than 10^1500, which is greater
+        // than the int size
+        // [2] http://www.lirmm.fr/~ochem/opn/opn.pdf
+        if (n % 2 != 0) {
+            return false;
+        }
+
+        // the algorithm itself
+        int sqrtOfN = (int) Math.sqrt(n);
+        int aliquotSum = 1;
+        for (int i = 2; i <= sqrtOfN; i++) {
+            if (n % i == 0) {
+                aliquotSum += i + n/i;
+            }
+        }
+
+        return aliquotSum == n;
     }
-	public static void main(String args[]) { 
-		int i,n,j,flag,number;
-		Scanner in = new Scanner(System. in);
-        System.out.println("Input number ");
-        i = in.nextInt();
-   
-        
-			for(n=10;n<=i;n++)
-			{
-				int l=Integer.toString(n).length();
-				if(l%2==0){
-					flag=1;
-					number=n;
-					while(number>0)
-					{
-					    
-						 int digit = number % 10;
-						 if(!(digit==4 || digit==5))
-						 {
-							 flag=0;
-						 }
-						  number=number/10;
-						 
-					}
-					if(flag==1)
-					{
-					    
-						
-						boolean num=isPalindrome(n);
-						
-						if(num)
-						{
-							System.out.println(n);
-						}
-					}
-				}
-				
-				
-			}
-			
-		 
-	}
-}		
+
+    public static void main(String[] args) {
+        int[] testCases = {-6, 0, 6, 7, 25, 28, 496, 8128, 33550336};
+
+        for (int i : testCases) {
+            System.out.println(String.format("Is %d a perfect number? %s", i, isPerfect(i)));
+        }
+    }
+}
