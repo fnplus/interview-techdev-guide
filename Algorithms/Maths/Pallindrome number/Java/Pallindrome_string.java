@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Pallindrome{
+class Pallindrome_string{
 	public static void pallindrome(String word){
 		word = word.toLowerCase();
 		word = word.replace(" ","");
