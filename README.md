@@ -39,7 +39,7 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 | [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                               |     |     |      |        |
 | [Singly Linked List](https://en.wikipedia.org/wiki/Linked_list)                                 |     |     |      |        |
 | [Double Linked List](https://en.wikipedia.org/wiki/Doubly_linked_list)                          |     |     |      |        |
-| [Circular Linked List](https://en.wikipedia.org/wiki/Linked_list)                               |     |     |      |        |
+| [Circular Linked List](https://en.wikipedia.org/wiki/Linked_list)                               |     |     | 👍   |        |
 | [Hash Tables](https://en.wikipedia.org/wiki/Hash_table)                                         |     |     |      |        |
 | [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))                                     |     |     |      |        |
 | [Fibonacci Heaps](https://en.wikipedia.org/wiki/Fibonacci_heap)                                 |     |     |      |        |
