@@ -8,6 +8,6 @@ There are two sections here:
 * Further commit Your file to the solution section.
 * Follow the Contrubution Guidlines for futher instructions
 
-See [Contributor.md](Contributor.md)
+See [Contributor.md](https://github.com/fnplus/interview-techdev-guide/blob/master/CONTRIBUTING.md)
 
 
