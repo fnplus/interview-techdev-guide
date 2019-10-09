@@ -95,6 +95,14 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 | [Floyd-Warshall Algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm) |     |     |      |        |
 | [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)               |     |     |      |        |
 
+
+| Dynamic Programming                                                                            | C   | CPP | Java | Python |
+| ------------------------------------------------------------------------------------------ | --- | --- | ---- | ------ |
+| [Edit distance](https://en.wikipedia.org/wiki/Breadth-first_search)                 |     |     |      | :octocat: |
+| [Fractional Knapsack](https://en.wikipedia.org/wiki/Depth-first_search)                     |     |     | :octocat: |        |
+| [Longest Increasing Sequence](https://en.wikipedia.org/wiki/Topological_sorting)                      |     |     |      |        |
+| [Kadane's Algorithms](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)                 |     |     |      |        |
+
 ## Curated resources (Footsteps) by FnPlus Community
 
 ### Coding Practices
