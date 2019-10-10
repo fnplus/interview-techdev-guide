@@ -33,7 +33,7 @@ for i in range(len(arr)):
   5
   6
   11
-  12
+  12 
   13
   
   
