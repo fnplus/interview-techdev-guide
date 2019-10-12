@@ -18,13 +18,12 @@ def insertionSort(arr):
 		arr[j+1] = key 
 
 
-# Driver code to test above
+# Getting dynamic input from user
 size = int(input("\nEnter list size\n"))
 li = []
 for i in range(0,size):
     item = int(input("Enter item {} of the list" .format(i)))
-    li.append(item)
-    
+    li.append(item)    
 print("\nInput list to be sorted is {}" .format(li))
 insertionSort(li) 
 print ("\nSorted array is {}" .format(li))  
