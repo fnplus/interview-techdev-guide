@@ -1,17 +1,29 @@
-arr = [5,14,18,6,21]
-n= len(arr)
-i = 1
-while (i<=n-1):
-  value = arr[i]
-  position = i
- 
-  while (position>0 and arr[position-1]>value):
-    arr[position] = arr[position-1]
-    position = position -1 
- 
-  i = i+1	
-  arr[position] = value
- 
- 
-for i in arr:
-  print i,
+# Python program for implementation of Insertion Sort 
+
+# Function to do insertion sort 
+def insertionSort(arr): 
+
+	# Traverse through 1 to len(arr) 
+	for i in range(1, len(arr)): 
+
+		key = arr[i] 
+
+		# Move elements of arr[0..i-1], that are 
+		# greater than key, to one position ahead 
+		# of their current position 
+		j = i-1
+		while j >=0 and key < arr[j] : 
+				arr[j+1] = arr[j] 
+				j -= 1
+		arr[j+1] = key 
+
+
+# Getting dynamic input from user
+size = int(input("\nEnter list size\n"))
+li = []
+for i in range(0,size):
+    item = int(input("Enter item {} of the list" .format(i)))
+    li.append(item)    
+print("\nInput list to be sorted is {}" .format(li))
+insertionSort(li) 
+print ("\nSorted array is {}" .format(li))  
