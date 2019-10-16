@@ -1,34 +1,29 @@
-class InsertionSort():
-    def __init__(self, list_to_sort):
-        self.sorted_list = list_to_sort
-        self.__sort()
-    
-    def __sort(self):
-        i = 1
-        while i < len(self.sorted_list):
-            x = self.sorted_list[i]
-            j = i - 1
-            while j >= 0 and self.sorted_list[j] > x:
-                self.sorted_list[j + 1] = self.sorted_list[j]
-                j -= 1
-            self.sorted_list[j + 1] = x
-            i += 1
-    
-    def add_element(self, element):         # can be used for online sorting: keep list sorted by adding elements one by one.
-        j = len(self.sorted_list) - 1
-        while j >= 0 and self.sorted_list[j] > element:
-            j -= 1
-        self.sorted_list.insert(j + 1, element)
+# Python program for implementation of Insertion Sort 
 
-    @staticmethod
-    def sort(list_to_sort):                 # inplace sort
-        InsertionSort(list_to_sort)
+# Function to do insertion sort 
+def insertionSort(arr): 
 
-def main():
-    print("Enter list elements, seperated by space \" \":")
-    numbers = [int(x) for x in input().strip().split(' ')]
-    InsertionSort.sort(numbers)
-    print(numbers)
+	# Traverse through 1 to len(arr) 
+	for i in range(1, len(arr)): 
 
-if __name__ == '__main__':
-    main()
+		key = arr[i] 
+
+		# Move elements of arr[0..i-1], that are 
+		# greater than key, to one position ahead 
+		# of their current position 
+		j = i-1
+		while j >=0 and key < arr[j] : 
+				arr[j+1] = arr[j] 
+				j -= 1
+		arr[j+1] = key 
+
+
+# Getting dynamic input from user
+size = int(input("\nEnter list size\n"))
+li = []
+for i in range(0,size):
+    item = int(input("Enter item {} of the list" .format(i)))
+    li.append(item)    
+print("\nInput list to be sorted is {}" .format(li))
+insertionSort(li) 
+print ("\nSorted array is {}" .format(li))  
