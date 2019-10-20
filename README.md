@@ -33,67 +33,67 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 
 ## Important Data Structures
 
-| Data Structure                                                                                  | C   | CPP | Java | Python |
-|:----------------------------------------------------------------------------------------------- |:---:|:---:|:----:|:------:|
-| [Dynamic array](https://en.wikipedia.org/wiki/Dynamic_array)                                    |     |     |      |        |
-| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                               |     |     |      |        |
-| [Singly Linked List](https://en.wikipedia.org/wiki/Linked_list)                                 |     |     |      |        |
-| [Double Linked List](https://en.wikipedia.org/wiki/Doubly_linked_list)                          |     |     |      |        |
-| [Circular Linked List](https://en.wikipedia.org/wiki/Linked_list)                               |     |     |      |        |
-| [Hash Tables](https://en.wikipedia.org/wiki/Hash_table)                                         |     |     |      |        |
-| [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))                                     |     |     |      |        |
-| [Fibonacci Heaps](https://en.wikipedia.org/wiki/Fibonacci_heap)                                 |     |     |      |        |
-| [Disjoints Sets](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                      |     |     |      |        |
-| [Adjacency matrix](https://en.wikipedia.org/wiki/List_of_data_structures#Hash-based_structures) |     |     |      |        |
-| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))                               |     |     |      |        |
-| [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue)                                  |     |     |      |        |
+| Data Structure                                                                                  | C         | CPP       | Java      | Python    |
+|:----------------------------------------------------------------------------------------------- |:---------:|:---------:|:---------:|:---------:|
+| [Dynamic array](https://en.wikipedia.org/wiki/Dynamic_array)                                    |           | :octocat: |           |           |
+| [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                               | :octocat: | :octocat: | :octocat: | :octocat: |
+| [Singly Linked List](https://en.wikipedia.org/wiki/Linked_list)                                 | :octocat: |           | :octocat: | :octocat: |
+| [Double Linked List](https://en.wikipedia.org/wiki/Doubly_linked_list)                          | :octocat: |           |           | :octocat: |
+| [Circular Linked List](https://en.wikipedia.org/wiki/Linked_list)                               |           |           |           | :octocat: |
+| [Hash Tables](https://en.wikipedia.org/wiki/Hash_table)                                         |           | :octocat: | :octocat: | :octocat: |
+| [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))                                     |           |           |           |           |
+| [Fibonacci Heaps](https://en.wikipedia.org/wiki/Fibonacci_heap)                                 |           |           |           | :octocat: |
+| [Disjoints Sets](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                      |           | :octocat: |           |           |
+| [Adjacency matrix](https://en.wikipedia.org/wiki/List_of_data_structures#Hash-based_structures) |           |           |           |           |
+| [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))                               | :octocat: | :octocat: | :octocat: | :octocat: |
+| [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue)                                  |           |           |           |           |
 
 ## Important Algorithms
 
-| Maths                                                                  | C   | CPP | Java | Python    |
-|:---------------------------------------------------------------------- |:---:|:---:|:----:|:---------:|
-| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)     |     |     |      |           |
-| [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)     |     |     |      |           |
-| [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number) |     |     |      |           |
-| [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)         |     |     |      | :octocat: |
+| Maths                                                                  | C         | CPP       | Java      | Python    |
+|:---------------------------------------------------------------------- |:---------:|:---------:|:---------:|:---------:|
+| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)     |:octocat:  | :octocat: | :octocat: | :octocat: |
+| [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)     |:octocat:  | :octocat: | :octocat: | :octocat: |
+| [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number) |:octocat:  | :octocat: | :octocat: | :octocat: |
+| [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)         |:octocat:  | :octocat: | :octocat: | :octocat: |
 
 | Searching and Sorting                                                  | C         | CPP       | Java      | Python    |
 |:---------------------------------------------------------------------- |:---------:|:---------:|:---------:|:---------:|
-| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                   | :octocat: |           | :octocat: |           |
-| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                 | :octocat: | :octocat: |           | :octocat: |
-| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)         |           |           |           | :octocat: |
-| [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)           |           |           |           |           |
+| [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                   |           | :octocat: | :octocat: | :octocat: |
+| [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                 |:octocat:  | :octocat: | :octocat: | :octocat: |
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)         | :octocat: |           | :octocat: | :octocat: |
+| [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)           |           |           | :octocat: |           |
 | [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)                 | :octocat: |           |           |           |
-| [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)               |           |           |           |           |
-| [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                    |           |           |           |           |
-| [Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)         |           |           |           | :octocat: |
-| [Linear Search](https://en.wikipedia.org/wiki/Linear_search)           |           |           |           |           |
-| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | :octocat: |           |           |           |
+| [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)               | :octocat: |           |           |           |
+| [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                    |           | :octocat: | :octocat: |           |
+| [Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)         |           |           | :octocat: | :octocat: |
+| [Linear Search](https://en.wikipedia.org/wiki/Linear_search)           | :octocat: |           |           | :octocat: |
+| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | :octocat: | :octocat: | :octocat: | :octocat: |
 
-| Tree traversal                                                         | C   | CPP | Java | Python |
-| ---------------------------------------------------------------------- | --- | --- | ---- | ------ |
-| [Pre-Order Traversal](https://en.wikipedia.org/wiki/Tree_traversal)    |     |     |      |        |
-| [Post-Order Traversal](https://en.wikipedia.org/wiki/Tree_traversal)   |     |     |      |        |
-| [In-Order Traversal](https://en.wikipedia.org/wiki/Tree_traversal)     |     |     |      |        |
-| [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree) |     |     |      |        |
-| [Height of the Tree]()                                                 |     |     |      |        |
-| [Depth of the Tree]()                                                  |     |     |      |        |
-| [AVL Tree](https://en.wikipedia.org/wiki/AVL_tree)                     |     |     |      |        |
-| [Spanning Tree](https://en.wikipedia.org/wiki/Spanning_tree)           |     |     |      |        |
-| [Segment Tree](https://en.wikipedia.org/wiki/Segment_tree)             |     |     |      |        |
-| [Fenwick Tree](https://en.wikipedia.org/wiki/Fenwick_tree)             |     |     |      |        |
-| [Trie](https://en.wikipedia.org/wiki/Trie)                             |     |     |      |        |
+| Tree traversal                                                         | C         | CPP       | Java      | Python    |
+| ---------------------------------------------------------------------- |:---------:|:---------:|:---------:|:---------:|
+| [Pre-Order Traversal](https://en.wikipedia.org/wiki/Tree_traversal)    |           |           |           | :octocat: |
+| [Post-Order Traversal](https://en.wikipedia.org/wiki/Tree_traversal)   |           |           |           | :octocat: |
+| [In-Order Traversal](https://en.wikipedia.org/wiki/Tree_traversal)     |           |           |           | :octocat: |
+| [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree) |           |           |           | :octocat: |
+| [Height of the Tree]()                                                 |           |           |           |           |
+| [Depth of the Tree]()                                                  |           |           |           |           |
+| [AVL Tree](https://en.wikipedia.org/wiki/AVL_tree)                     |           |           |           |           |
+| [Spanning Tree](https://en.wikipedia.org/wiki/Spanning_tree)           |           |           |           |           |
+| [Segment Tree](https://en.wikipedia.org/wiki/Segment_tree)             |           |           |           |           |
+| [Fenwick Tree](https://en.wikipedia.org/wiki/Fenwick_tree)             |           |           |           |           |
+| [Trie](https://en.wikipedia.org/wiki/Trie)                             |           |           |           |           |
 
-| Graph Traversal                                                                            | C   | CPP | Java | Python |
-| ------------------------------------------------------------------------------------------ | --- | --- | ---- | ------ |
-| [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search)                 |     |     |      |        |
-| [Depth First Search](https://en.wikipedia.org/wiki/Depth-first_search)                     |     |     |      |        |
-| [Topological Sort](https://en.wikipedia.org/wiki/Topological_sorting)                      |     |     |      |        |
-| [Kruskals Algorithms](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)                 |     |     |      |        |
-| [Prim's Algorithms](https://en.wikipedia.org/wiki/Prim%27s_algorithm)                      |     |     |      |        |
-| [Belmon Ford Algorithms](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)     |     |     |      |        |
-| [Floyd-Warshall Algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm) |     |     |      |        |
-| [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)               |     |     |      |        |
+| Graph Traversal                                                                            | C         | CPP       | Java      | Python    |
+| ------------------------------------------------------------------------------------------ |:---------:|:---------:|:---------:|:---------:|
+| [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search)                 | :octocat: | :octocat: |           | :octocat: |
+| [Depth First Search](https://en.wikipedia.org/wiki/Depth-first_search)                     | :octocat: | :octocat: |           | :octocat: |
+| [Topological Sort](https://en.wikipedia.org/wiki/Topological_sorting)                      |           | :octocat: | :octocat: |           |
+| [Kruskals Algorithms](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)                 |           |           |           |           |
+| [Prim's Algorithms](https://en.wikipedia.org/wiki/Prim%27s_algorithm)                      | :octocat: |           |           |           |
+| [Belmon Ford Algorithms](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)     |           | :octocat: |           |           |
+| [Floyd-Warshall Algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm) |           | :octocat: |           |           |
+| [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)               |           | :octocat: |           |           |
 
 ## Curated resources (Footsteps) by FnPlus Community
 
