@@ -1,0 +1,4 @@
+Palindrome for no in python
+
+Enter number:12321
+The number is a palindrome!
