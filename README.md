@@ -31,7 +31,7 @@ While sending a PR make sure you follow one issue per PR rule.
 
 See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techdev-guide/issues/151)
 
-## Important Data Structures:
+## Important Data Structures
 
 | Data Structure                                                                                  | C         | CPP       | Java      | Python    |
 |:----------------------------------------------------------------------------------------------- |:---------:|:---------:|:---------:|:---------:|
@@ -40,22 +40,22 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 | [Singly Linked List](https://en.wikipedia.org/wiki/Linked_list)                                 | :octocat: |           | :octocat: | :octocat: |
 | [Double Linked List](https://en.wikipedia.org/wiki/Doubly_linked_list)                          | :octocat: |           |           | :octocat: |
 | [Circular Linked List](https://en.wikipedia.org/wiki/Linked_list)                               |           |           |           | :octocat: |
-| [Hash Tables](https://en.wikipedia.org/wiki/Hash_table)                                         |           |           |           |           |
-| [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))                                     |           | :octocat: | :octocat: | :octocat: |
+| [Hash Tables](https://en.wikipedia.org/wiki/Hash_table)                                         |           | :octocat: | :octocat: | :octocat: |
+| [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))                                     |           |           |           |           |
 | [Fibonacci Heaps](https://en.wikipedia.org/wiki/Fibonacci_heap)                                 |           |           |           | :octocat: |
-| [Disjoints Sets](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)                     |           | :octocat: |           |           |
-| [Adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix)                              |           |           |           |           |
+| [Disjoints Sets](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                      |           | :octocat: |           |           |
+| [Adjacency matrix](https://en.wikipedia.org/wiki/List_of_data_structures#Hash-based_structures) |           |           |           |           |
 | [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))                               | :octocat: | :octocat: | :octocat: | :octocat: |
 | [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue)                                  |           |           |           |           |
 
-## Important Algorithms:
+## Important Algorithms
 
 | Maths                                                                          | C         | CPP       | Java      | Python    |
 |:------------------------------------------------------------------------------ |:---------:|:---------:|:---------:|:---------:|
 | [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)             | :octocat: | :octocat: | :octocat: | :octocat: |
 | [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)             | :octocat: | :octocat: | :octocat: | :octocat: |
 | [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number)         | :octocat: | :octocat: | :octocat: | :octocat: |
-| [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)                 | :octocat: |           | :octocat: | :octocat: |
+| [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)                 | :octocat: | :octocat: | :octocat: | :octocat: |
 | [Magic number](https://en.wikipedia.org/wiki/Magic_number)                     |           |           |           | :octocat: |
 | [Polite number](https://en.wikipedia.org/wiki/Polite_number)                   |           | :octocat: | :octocat: | :octocat: |
 | [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)   |           | :octocat: | :octocat: |           |
@@ -68,7 +68,7 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)         | :octocat: |           | :octocat: | :octocat: |
 | [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)           |           |           | :octocat: |           |
 | [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)                 | :octocat: |           |           |           |
-| [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)               |           |           |           | :octocat: |
+| [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)               | :octocat: |           |           | :octocat: |
 | [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                    |           | :octocat: | :octocat: |           |
 | [Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)         |           |           | :octocat: | :octocat: |
 | [Linear Search](https://en.wikipedia.org/wiki/Linear_search)           | :octocat: |           |           | :octocat: |
@@ -99,12 +99,12 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 | [Floyd-Warshall Algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm) |           | :octocat: |           |           |
 | [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)               |           | :octocat: |           |           |
 
-| Dynamic Programming                                                                            | C   | CPP | Java | Python |
-| ------------------------------------------------------------------------------------------ | --- | --- | ---- | ------ |
-| [Edit distance](https://en.wikipedia.org/wiki/Breadth-first_search)                 |     |     |      | :octocat: |
-| [Fractional Knapsack](https://en.wikipedia.org/wiki/Depth-first_search)                     |     |     | :octocat: |        |
-| [Longest Increasing Sequence](https://en.wikipedia.org/wiki/Topological_sorting)                      |     |     |      |        |
-| [Kadane's Algorithms](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)                 |     |     |      |        |
+| Dynamic Programming                                                                         |  C  | CPP |   Java    |   Python  |
+| ------------------------------------------------------------------------------------------  | --- | --- | --------  | --------  |
+| [Edit distance](https://en.wikipedia.org/wiki/Breadth-first_search)                         |     |     |           | :octocat: |
+| [Fractional Knapsack](https://en.wikipedia.org/wiki/Depth-first_search)                     |     |     | :octocat: |           |
+| [Longest Increasing Sequence](https://en.wikipedia.org/wiki/Topological_sorting)            |     |     |           |           |
+| [Kadane's Algorithms](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)                  |     |     |           |           |
 
 ## Curated resources (Footsteps) by FnPlus Community
 
