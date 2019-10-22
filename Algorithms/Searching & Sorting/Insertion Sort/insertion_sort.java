@@ -1,42 +1,24 @@
-// Java program for implementation of Insertion Sort 
-class InsertionSort { 
-	/*Function to sort array using insertion sort*/
-	void sort(int arr[]) 
-	{ 
-		int n = arr.length; 
-		for (int i = 1; i < n; ++i) { 
-			int key = arr[i]; 
-			int j = i - 1; 
+import java.util.Arrays;
 
-			/* Move elements of arr[0..i-1], that are 
-			greater than key, to one position ahead 
-			of their current position */
-			while (j >= 0 && arr[j] > key) { 
-				arr[j + 1] = arr[j]; 
-				j = j - 1; 
-			} 
-			arr[j + 1] = key; 
-		} 
-	} 
+public class InsertionSort {
 
-	/* A utility function to print array of size n*/
-	static void printArray(int arr[]) 
-	{ 
-		int n = arr.length; 
-		for (int i = 0; i < n; ++i) 
-			System.out.print(arr[i] + " "); 
+    public static void main(String[] args) {
+        int data[] = {52,31,25,12,48,44,38,9,37,29,43,16,22,28,41};
+        sort(data);
+        System.out.println(Arrays.toString(data));
+    }
 
-		System.out.println(); 
-	} 
+    public static void sort(int data[]){
+        int length = data.length;
+        for(int i = 1; i < length; ++i){
+            int valueInsert = data[i]; // copy of value to be inserted
+            int indexSpace = i; // index space where item to be inserted was
 
-	// Driver method 
-	public static void main(String args[]) 
-	{ 
-		int arr[] = { 12, 11, 13, 5, 6 }; 
-
-		InsertionSort ob = new InsertionSort(); 
-		ob.sort(arr); 
-
-		printArray(arr); 
-	} 
-} 
+            while(indexSpace > 0 && data[indexSpace - 1] > valueInsert) {
+                data[indexSpace] = data[indexSpace -1];
+                indexSpace = indexSpace - 1;
+            }
+            data[indexSpace] = valueInsert; //located space to insert the item within sorted list
+        }
+    }
+}
