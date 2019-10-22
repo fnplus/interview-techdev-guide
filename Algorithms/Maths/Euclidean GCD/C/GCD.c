@@ -1,45 +1,44 @@
-#include <stdio.h> 
-  
-//Recursive version of GCD
-int gcd_recursive(int num1, int num2) 
-{ 
-    if (num2 == 0) 
-        return num1; 
-    return gcd_recursive(num2, num1%num2); 
-}
-
-//Non Recursive version of GCD
-int gcd_non_recursive(int num1, int num2)
+#include<stdio.h>
+int top=-1;
+int arr[20];
+main()
 {
-    if(num1 < num2)
+    signed int a,b,remain,max,min,s;
+    printf("enter the two number whose gcd is to be found using euclid algorithm\n");
+    scanf("%d%d",&a,&b);
+    if(a<0)
+        a=-1*a;
+    if(b<0)
+        b=-1*b;
+    max=(a>b)?a:b;
+    min=(a<b)?a:b;
+    remain=max%min;
+    s=max/min;
+    printf("%d = %d *%d + %d",max,min,s,remain);
+    stack(remain);
+    stack(min);
+    while(remain>0)
     {
-        int temp = num1;
-        num1 = num2;
-        num2 = temp;
+        max=pop();
+        min=pop();
+        remain=max%min;
+        s=max/min;
+        printf("\n%d = %d *%d + %d",max,min,s,remain);
+        stack(remain);
+        stack(min);
     }
-    while(num2!=0)
-    {
-        int temp = num2;
-        num2 = num1 % num2;
-        num1 = temp;
-    }
-    return num1;
+    printf("\ngcd of two function is %d",pop());
+    getch();
+
 }
-  
-// Entry point
-int main() 
-{ 
-    int a = 10, b = 15; 
-    printf("Recursive-GCD(%d, %d) = %d\n", a, b, gcd_recursive(a, b)); 
-    printf("Non-Recurivse-GCD(%d, %d) = %d\n", a, b, gcd_non_recursive(a, b));
-    a = 35, b = 10; 
-    printf("Recursive-GCD(%d, %d) = %d\n", a, b, gcd_recursive(a, b)); 
-    printf("Non-Recurivse-GCD(%d, %d) = %d\n", a, b, gcd_non_recursive(a, b));
-    a = 31, b = 2; 
-    printf("Recursive-GCD(%d, %d) = %d\n", a, b, gcd_recursive(a, b)); 
-    printf("Non-Recurivse-GCD(%d, %d) = %d\n", a, b, gcd_non_recursive(a, b));
-    a = 10, b = 0;
-    printf("Recursive-GCD(%d, %d) = %d\n", a, b, gcd_recursive(a, b)); 
-    printf("Non-Recurivse-GCD(%d, %d) = %d\n", a, b, gcd_non_recursive(a, b));
-    return 0; 
-} 
+void stack(int value)
+{
+    top=top+1;
+    arr[top]=value;
+}
+int pop()
+{
+    int k=top;
+     top--;
+    return(arr[k]);
+}
