@@ -110,7 +110,6 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 
 ### Coding Practices:
 
-* [Project Euler](https://projecteuler.net)
 * [LeetCode](https://leetcode.com/)
 * [InterviewBit](https://www.interviewbit.com/)
 * [Codility](https://codility.com/)
