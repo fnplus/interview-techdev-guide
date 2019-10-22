@@ -50,19 +50,19 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 
 ## Important Algorithms
 
-| Maths                                                                  | C   | CPP | Java | Python |
-|:---------------------------------------------------------------------- |:---:|:---:|:----:|:------:|
-| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)     |     |     |      |        |
-| [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)     |     |     |      |        |
-| [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number) |     |     |      |
-| [Armstrong-number](https://en.wikipedia.org/wiki/Palindromic_number)   |     |     |      |        |
-| [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)         |     |     |      |        |
+| Maths                                                                  | C   | CPP | Java |  Python |
+|:---------------------------------------------------------------------- |:---:|:---:|:----:|:-------:|
+| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)     |     |     |      |         |
+| [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)     |     |     |      |         |
+| [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number) |     |     |      |         |
+| [Armstrong-number](https://en.wikipedia.org/wiki/Palindromic_number)   |     |     |      |         |
+| [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)         |     |     |      |:octocat:|
 
 | Searching and Sorting                                                  | C         | CPP       | Java      | Python    |
 |:---------------------------------------------------------------------- |:---------:|:---------:|:---------:|:---------:|
 | [QuickSort](https://en.wikipedia.org/wiki/Quicksort)                   | :octocat: |           | :octocat: |           |
 | [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)                 | :octocat: | :octocat: |           | :octocat: |
-| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)         |           |           |           |           |
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)         |           |           |           | :octocat: |
 | [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)           |           |           |           |           |
 | [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)                 | :octocat: |           |           |           |
 | [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)               |           |           |           |           |
