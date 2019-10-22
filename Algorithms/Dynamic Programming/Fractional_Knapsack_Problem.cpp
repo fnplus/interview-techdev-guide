@@ -59,4 +59,4 @@ int main()
     cout << "Maximum profit that can be obtained = "
          << fractKnapsack(W, a, n); 
     return 0; 
-} 
+}

@@ -1,52 +1,45 @@
-# Python program to demonstrate insert operation in binary search tree 
-
-# A utility class that represents an individual node in a BST 
-class Node: 
-	def __init__(self,key): 
+class Node:
+	def __init__(self, value):
+		self.value = value
 		self.left = None
 		self.right = None
-		self.val = key 
 
-# A utility function to insert a new node with the given key 
-def insert(root,node): 
-	if root is None: 
-		root = node 
-	else: 
-		if root.val < node.val: 
-			if root.right is None: 
-				root.right = node 
-			else: 
-				insert(root.right, node) 
-		else: 
-			if root.left is None: 
-				root.left = node 
-			else: 
-				insert(root.left, node) 
+def insert_node(root_node, new_node):
+	if new_node.value > root_node.value:
+		if root_node.right is None:
+			root_node.right = new_node
+		else:
+			insert_node(root_node.right, new_node)
+	else:
+		if root_node.left is None:
+			root_node.left = new_node
+		else:
+			insert_node(root_node.left, new_node)
 
-# A utility function to do inorder tree traversal 
-def inorder(root): 
-	if root: 
-		inorder(root.left) 
-		print(root.val) 
-		inorder(root.right) 
+def preorder_traversal(node):
+	if node:
+		print(node.value)
+		preorder_traversal(node.left)
+		preorder_traversal(node.right)
 
+def inorder_traversal(node):
+	if node:
+		inorder_traversal(node.left)
+		print(node.value)
+		inorder_traversal(node.right)
 
-# Driver program to test the above functions 
-# Let us create the following BST 
-#	 50 
-# /	 \ 
-# 30	 70 
-# / \ / \ 
-# 20 40 60 80 
-r = Node(50) 
-insert(r,Node(30)) 
-insert(r,Node(20)) 
-insert(r,Node(40)) 
-insert(r,Node(70)) 
-insert(r,Node(60)) 
-insert(r,Node(80)) 
+def postorder_traversal(node):
+	if node:
+		postorder_traversal(node.left)
+		postorder_traversal(node.right)
+		print(node.value)
 
-# Print inoder traversal of the BST 
-inorder(r) 
-
-# This code is contributed by Bhavya Jain 
+tree_nodes = [7, 8, 2, 3, 1, 4, 6, 9]
+root_node = Node(tree_nodes[0])
+tree_nodes.pop(0)
+for tree_node in tree_nodes:
+	new_node = Node(tree_node)
+	insert_node(root_node, new_node)
+preorder_traversal(root_node)
+inorder_traversal(root_node)
+postorder_traversal(root_node)

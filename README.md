@@ -11,7 +11,7 @@ This repository contains examples of various algorithms written on different pro
 
 ## Contributors
 
-[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/0)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/1)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/2)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/3)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/4)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/5)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/6)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/7)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/7)
+[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/0)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/0)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/1)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/1)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/2)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/2)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/3)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/3)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/4)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/4)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/5)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/5)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/6)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/6)[![](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/images/7)](https://sourcerer.io/fame/xlogix/fnplus/interview-techdev-guide/links/7)(https://github.com/divyhshah)
 
 ## Contributing
 
@@ -31,7 +31,7 @@ While sending a PR make sure you follow one issue per PR rule.
 
 See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techdev-guide/issues/151)
 
-## Important Data Structures
+## Important Data Structures:
 
 | Data Structure                                                                                  | C   | CPP | Java | Python |
 |:----------------------------------------------------------------------------------------------- |:---:|:---:|:----:|:------:|
@@ -39,23 +39,25 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 | [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                               |     |     |      |        |
 | [Singly Linked List](https://en.wikipedia.org/wiki/Linked_list)                                 |     |     |      |        |
 | [Double Linked List](https://en.wikipedia.org/wiki/Doubly_linked_list)                          |     |     |      |        |
-| [Circular Linked List](https://en.wikipedia.org/wiki/Linked_list)                               |     |     |      |        |
+| [Circular Linked List](https://en.wikipedia.org/wiki/Linked_list)                               |     |     | 👍   |        |
 | [Hash Tables](https://en.wikipedia.org/wiki/Hash_table)                                         |     |     |      |        |
 | [Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))                                     |     |     |      |        |
 | [Fibonacci Heaps](https://en.wikipedia.org/wiki/Fibonacci_heap)                                 |     |     |      |        |
 | [Disjoints Sets](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))                      |     |     |      |        |
 | [Adjacency matrix](https://en.wikipedia.org/wiki/List_of_data_structures#Hash-based_structures) |     |     |      |        |
 | [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))                               |     |     |      |        |
+[Circular Queue](https://en.wikipedia.org/wiki/Circular_buffer)                               |     |     |      |        |
 | [Priority Queue](https://en.wikipedia.org/wiki/Priority_queue)                                  |     |     |      |        |
 
-## Important Algorithms
+## Important Algorithms:
 
-| Maths                                                                  | C   | CPP | Java | Python    |
-|:---------------------------------------------------------------------- |:---:|:---:|:----:|:---------:|
-| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)     |     |     |      |           |
-| [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)     |     |     |      |           |
-| [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number) |     |     |      |           |
-| [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)         |     |     |      | :octocat: |
+| Maths                                                                  | C   | CPP | Java |  Python |
+|:---------------------------------------------------------------------- |:---:|:---:|:----:|:-------:|
+| [Euclidean GCD](https://en.wikipedia.org/wiki/Euclidean_algorithm)     |     |     |      |         |
+| [Fibonacci series](https://en.wikipedia.org/wiki/Fibonacci_number)     |     |     |      |         |
+| [Pallindrome number](https://en.wikipedia.org/wiki/Palindromic_number) |     |     |      |         |
+| [Armstrong-number](https://en.wikipedia.org/wiki/Palindromic_number)   |     |     |      |         |
+| [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)         |     |     |      |:octocat:|
 
 | Searching and Sorting                                                  | C         | CPP       | Java      | Python    |
 |:---------------------------------------------------------------------- |:---------:|:---------:|:---------:|:---------:|
@@ -64,8 +66,8 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)         |           |           |           | :octocat: |
 | [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort)           |           |           |           |           |
 | [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)                 | :octocat: |           |           |           |
-| [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)               |           |           |           |           |
-| [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                    |           |           |           |           |
+| [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)               | :octocat: |           |           |           |
+| [Heap Sort](https://en.wikipedia.org/wiki/Heapsort)                    | :octocat: |           |           |           |
 | [Selection Sort](https://en.wikipedia.org/wiki/Selection_sort)         |           |           |           | :octocat: |
 | [Linear Search](https://en.wikipedia.org/wiki/Linear_search)           |           |           |           |           |
 | [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | :octocat: |           |           |           |
@@ -95,9 +97,17 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 | [Floyd-Warshall Algorithm](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm) |     |     |      |        |
 | [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)               |     |     |      |        |
 
+
+| Dynamic Programming                                                                            | C   | CPP | Java | Python |
+| ------------------------------------------------------------------------------------------ | --- | --- | ---- | ------ |
+| [Edit distance](https://en.wikipedia.org/wiki/Breadth-first_search)                 |     |     |      | :octocat: |
+| [Fractional Knapsack](https://en.wikipedia.org/wiki/Depth-first_search)                     |     |     | :octocat: |        |
+| [Longest Increasing Sequence](https://en.wikipedia.org/wiki/Topological_sorting)                      |     |     |      |        |
+| [Kadane's Algorithms](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)                 |     |     |      |        |
+
 ## Curated resources (Footsteps) by FnPlus Community
 
-### Coding Practices
+### Coding Practices:
 
 * [Project Euler](https://projecteuler.net)
 * [LeetCode](https://leetcode.com/)
@@ -115,7 +125,7 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 * [CodeKata](http://codekata.com/)
 * [Firecode](https://www.firecode.io/)
 
-### Video Lectures
+### Video Lectures:
 
 * Data Structures
   * [UC Berkeley Data Structures](https://www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
@@ -124,14 +134,14 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
   * [MIT Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
   * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
-### Interview Books
+### Interview Books:
 
 * [Competitive Programming 3 - Steven Halim & Felix Halim](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
 * [Cracking The Coding Interview - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
 * [Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https://www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
 * [Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&)
 
-### Guides
+### Guides:
 
 * [GeeksForGeeks – A CS portal for geeks](http://www.geeksforgeeks.org/)
 * [Learneroo – Algorithms](https://www.learneroo.com/subjects/8)
@@ -139,7 +149,7 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 * [Infoarena training path](http://www.infoarena.ro/training-path) (RO)
 * Steven & Felix Halim – [Increasing the Lower Bound of Programming Contests](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=118) (UVA Online Judge)
 
-### Courses
+### Courses:
 
 * MIT – [Hacking a Google Interview](https://courses.csail.mit.edu/iap/interview/materials.php)
 * [Coderust 2.0 ($$)](https://www.educative.io/collection/5642554087309312/5679846214598656?authorName=Coderust)
@@ -147,7 +157,7 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 * [How to Ace the Software Engineering Interview ($$)](https://interviewsteps.com/products/how-to-ace-the-software-engineering-interview)
 * [Grokking the System Design Interview ($$)](https://www.educative.io/collection/5668639101419520/5649050225344512)
 
-### Sites
+### Sites:
 
 * [Coding for Interviews](http://codingforinterviews.com/)
 * [Career Cup](https://www.careercup.com/)
@@ -157,7 +167,7 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 * [FreeCodeCamp](https://www.freecodecamp.com/) *"Learn to code and help nonprofits"*
 * [Dynamic Programming Practice Problems](https://people.cs.clemson.edu/~bcdean/dp_practice/)
 
-### Videos
+### Videos:
 
 * [How to: Work at Google – Candidate Coaching Session for Technical Interviewing [45:45]](https://www.youtube.com/watch?v=oWbUtlUhwa8)
 * Gayle McDowell – [Cracking the Coding Interview [1:14:24]](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
@@ -169,7 +179,7 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 * Ladies Storm Hackathons – [Interview Prep Round 1: Strings, Arrays, Linked Lists [1:12:39]](https://www.youtube.com/watch?v=fIpliB-ton8)
 * Randall Koutnik – [Rethinking the Developer Career Path [25:03]](https://www.youtube.com/watch?v=yIPbE7BssOs)
 
-### System Design
+### System Design:
 
 * [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
 * [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
@@ -181,12 +191,12 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 * Jeff Atwood – [How Good an Estimator Are You?](http://blog.codinghorror.com/how-good-an-estimator-are-you/)
 * [0xAX/linux-insides](https://github.com/0xAX/linux-insides)
 
-### Computer Science News
+### Computer Science News:
 
 * [Hacker News](https://news.ycombinator.com/)
 * [Lobsters](https://lobste.rs/)
 
-## Sample Run
+## Sample Run:
 
 | Language | Steps                                                              |
 | -------- | ------------------------------------------------------------------ |
@@ -196,17 +206,17 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 | Java     | <pre>javac [filename.java]<br>java [filename]</pre>                |
 | Golang   | <pre>go build [filename.go]<br>[./filename]</pre>                  |
 
-## Support
+## Support:
 
 Feel free to contact us at our [E-mail](mailto:support@fnplus.tech), we'd be happy to help!
 Check out our app called [footsteps](https://footsteps.dev) which helps you keep a log of your online learning and inspire others to follow it!
 
-## Notes
+## Notes:
 
 Only project maintainers should merge a PR.
 Other members can add their reviews to a PR but the merging should be done by only a project maintainer.
 
-## Authors
+## Authors:
 
 * [Saurav Jaiswal](https://github.com/sauravjaiswalsj)
 * [Abhishek Kumar](https://www.abhishekkumar.dev)
