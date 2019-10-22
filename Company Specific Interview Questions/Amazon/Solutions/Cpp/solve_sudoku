@@ -1,0 +1,149 @@
+/* 
+Given an incomplete Sudoku configuration in terms of a 9 x 9  2-D square matrix (mat[][]). The task to print a solved Sudoku. For simplicity you may assume that there will be only one unique solution.
+
+Sample Sudoku for you to get the logic for its solution:
+
+Input:
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case contains 9*9 space separated values of the matrix mat[][] representing an incomplete Sudoku state where a 0 represents empty block.
+
+Output:
+For each test case, in a new line, print the space separated values of the solution of the the sudoku.
+
+Constraints:
+1 <= T <= 10
+0 <= mat[] <= 9
+
+Example:
+Input:
+1
+3 0 6 5 0 8 4 0 0
+5 2 0 0 0 0 0 0 0
+0 8 7 0 0 0 0 3 1
+0 0 3 0 1 0 0 8 0
+9 0 0 8 6 3 0 0 5
+0 5 0 0 9 0 6 0 0
+1 3 0 0 0 0 2 5 0
+0 0 0 0 0 0 0 7 4
+0 0 5 2 0 6 3 0 0
+
+Output:
+3 1 6 5 7 8 4 9 2
+5 2 9 1 3 4 7 6 8
+4 8 7 6 2 9 5 3 1
+2 6 3 4 1 5 9 8 7
+9 7 4 8 6 3 1 2 5
+8 5 1 7 9 2 6 4 3
+1 3 8 9 4 7 2 5 6
+6 9 2 3 5 1 8 7 4
+7 4 5 2 8 6 3 1 9
+
+Explanation:
+Testcase 1: Not needed, I guess. Sp;ved sudoku is already given in output.
+*/
+
+#include<iostream>
+using namespace std;
+
+// This function finds an entry in grid that is still unassigned 
+int findUnassigned(int grid[9][9], int &row, int &col); 
+  
+// Checks whether it will be legal to assign num to the given row, col 
+int isSafe(int grid[9][9], int row, int col, int num); 
+
+	
+	  int Solvesudoku(int grid[9][9]){
+	      
+	      int row,col;
+	      if(!findUnassigned(grid,row,col)){
+	          return 1;
+	      }
+	      
+	      for(int num=1;num<=9;num++){
+	       if(isSafe(grid, row, col, num)){
+	        
+	        grid[row][col]=num;
+	        if(Solvesudoku(grid)){
+	            return 1;
+	        }
+	        grid[row][col]=0;
+	             
+	       }
+	      
+	      }
+	       return 0;
+	  }
+     int findUnassigned(int grid[9][9], int &row , int &col){
+	        for(row=0;row<9;row++){
+	            for(col=0;col<9;col++){
+	                if(grid[row][col]==0){
+	                    //printf("%d %d",row,col);
+	                    return 1;
+	                }
+	            }
+	        }
+	        return 0;
+	    }
+
+	        int UsedinRow(int grid[9][9], int row, int num){
+	        for(int col=0;col<9;col++){
+	            if(grid[row][col] == num){
+	                return 1;
+	            }
+	        }
+	        return 0;
+	    }
+	    
+	    int UsedinCol(int grid[9][9], int col, int num){
+	        for(int row=0;row<9;row++){
+	            if(grid[row][col] == num){
+	                return 1;
+	            }
+	        }
+	        return 0;
+	    }
+	    int Usedingrid(int grid[9][9], int brow,int bcol,int num){
+	        for(int i=0;i<3;i++){
+	            for(int j=0;j<3;j++){
+	                if(grid[i+brow][j+bcol] == num){
+	                    return 1;
+	                }
+	            }
+	        }
+	        return 0;
+	    }
+	    	        
+	    int isSafe(int grid[9][9], int row,int col,int num){
+	       // printf("%d ",UsedinRow(grid,row,num));
+	        
+	        return !UsedinRow(grid,row,num) && !UsedinCol(grid,col,num) && !Usedingrid(grid, row - row%3, col - col%3, num);
+	    }
+	
+	    
+// Driver code    
+int main() {
+	//code
+	int n;
+	scanf("%d",&n);
+	for(int i=0;i<n;i++){
+	    
+	    int grid[9][9];
+	    for(int i=0;i<9;i++){
+	        for(int j=0;j<9;j++){
+	            scanf("%d",&grid[i][j]);
+	        }
+	    }
+	      
+	  if(Solvesudoku(grid)){
+	      for(int i=0;i<9;i++){
+	          for(int j=0;j<9;j++){
+	              printf("%d ",grid[i][j]);
+	          }
+	         // printf("\n");
+	      }
+	  }
+	  printf("\n");
+
+}
+	return 0;
+}
+ 
