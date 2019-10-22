@@ -45,5 +45,4 @@ int main()
     cout << "Sorted array: \n";  
     printArray(arr, n);  
     return 0;  
-}  
-  
+}
