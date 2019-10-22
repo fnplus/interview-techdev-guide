@@ -1,0 +1,62 @@
+# Python program to detect cycle in a graph 
+
+from collections import defaultdict 
+
+class Graph(): 
+	def __init__(self,vertices): 
+		self.graph = defaultdict(list) 
+		self.V = vertices 
+
+	def addEdge(self,u,v): 
+		self.graph[u].append(v) 
+
+	def isCyclicUtil(self, v, visited, recStack): 
+
+		# Mark current node as visited and 
+		# adds to recursion stack 
+		visited[v] = True
+		recStack[v] = True
+
+		# Recur for all neighbours 
+		# if any neighbour is visited and in 
+		# recStack then graph is cyclic 
+		for neighbour in self.graph[v]: 
+			if visited[neighbour] == False: 
+				if self.isCyclicUtil(neighbour, visited, recStack) == True: 
+					return True
+			elif recStack[neighbour] == True: 
+				return True
+
+		# The node needs to be poped from 
+		# recursion stack before function ends 
+		recStack[v] = False
+		return False
+
+	# Returns true if graph is cyclic else false 
+	def isCyclic(self): 
+		visited = [False] * self.V 
+		recStack = [False] * self.V 
+		for node in range(self.V): 
+			if visited[node] == False: 
+				if self.isCyclicUtil(node,visited,recStack) == True: 
+					return True
+		return False
+
+print("Enter no of Vertices: ")
+V = int(input())
+g = Graph(V)
+
+print("Enter no of Edges: ")
+E = int(input())
+
+print("Enter Edges")
+for i in range(E):
+  u, v = input().split()
+  u = int(u)
+  v = int(v)
+  g.addEdge(u,v)
+ 
+if g.isCyclic() == 1: 
+	print ("Graph has a cycle")
+else: 
+	print ("Graph has no cycle")
