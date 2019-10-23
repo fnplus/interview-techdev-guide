@@ -1,4 +1,3 @@
-
 class TrieNode(object):
     def __init__(self):
         self.children = [] #will be of size = 26
@@ -17,6 +16,9 @@ class TrieNode(object):
         pCrawl = root
         for i in key:
             index = ord(i)-97
+            if index > 25 or index < 0:
+                print("Small alphabet charchters only allowed")
+                return
             if(pCrawl.children[index] == None):
                 # node has to be initialised
                 pCrawl.children[index] = self.getNode()
@@ -28,6 +30,9 @@ class TrieNode(object):
         pCrawl = root
         for i in key:
             index = ord(i)-97
+            # handling non alphabet characters
+            if index > 25 or index < 0:
+                return False
             if(pCrawl.children[index] == None):
                 return False
             pCrawl = pCrawl.children[index]
