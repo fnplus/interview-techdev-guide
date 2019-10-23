@@ -54,4 +54,3 @@ class ShellSort
 		printArray(arr); 
 	} 
 } 
-/*This code is contributed by Rajat Mishra */
