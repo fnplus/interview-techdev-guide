@@ -1,63 +1,93 @@
-#include<stdio.h>
+#include<stdlib.h> 
+#include<stdio.h> 
+  
+void merge(int arr[], int l, int m, int r) 
+{ 
+    int i, j, k; 
+    int n1 = m - l + 1; 
+    int n2 =  r - m; 
+    //merges two subarrays of arr[], i.e. arr[l..m] and arr[m+1..r]
+  
+    int L[n1], R[n2]; 
+	//created twwo temp arrays  
 
-void mergesort(int a[],int i,int j);
-void merge(int a[],int i1,int j1,int i2,int j2);
+    for (i = 0; i < n1; i++) 
+        L[i] = arr[l + i]; 
+    for (j = 0; j < n2; j++) 
+        R[j] = arr[m + 1+ j]; 
+    //copies data to arrays
+  
+    i = 0; //first subarray 
+    j = 0; //econd subarray 
+    k = l; //merged subarray
 
-int main()
-{
-	int a[30],n,i;
-	printf("Enter no of elements:");
-	scanf("%d",&n);
-	printf("Enter array elements:");
+    while (i < n1 && j < n2)  // merges the temp arrays back to arr[l..r] 
+    { 
+        if (L[i] <= R[j]) 
+        { 
+            arr[k] = L[i]; 
+            i++; 
+        } 
+        else
+        { 
+            arr[k] = R[j]; 
+            j++; 
+        } 
+        k++; 
+    } 
+  
 
-	for(i=0;i<n;i++)
-		scanf("%d",&a[i]);
+    while (i < n1) //copies remaining elements of L[]
+    { 
+        arr[k] = L[i]; 
+        i++; 
+        k++; 
+    } 
+  
+    while (j < n2) //copies remaining elements of r[]
+    { 
+        arr[k] = R[j]; 
+        j++; 
+        k++; 
+    } 
+} 
+  
 
-	mergesort(a,0,n-1);
+void mergeSort(int arr[], int l, int r) // L is left index and r is right index of sub array to be sorted
+{ 
+    if (l < r) 
+    { 
 
-	printf("\nSorted array is :");
-	for(i=0;i<n;i++)
-		printf("%d ",a[i]);
+        int m = (l+r)/2; 
+  
+        // Sort first and second halves 
+        mergeSort(arr, l, m); 
+        mergeSort(arr, m+1, r); 
+  
+        merge(arr, l, m, r); 
+    } 
+} 
 
-	return 0;
-}
+int main() 
+{ 
+	//scanning array to sort
+	printf("Enter size of array to be sorted \n");
+	int arr_size;
+	scanf("%d", &arr_size);
+	int arr[arr_size];
+	printf("Enter array \n");
+	int i;
+	for(i=0;i<arr_size;i++) 
+		scanf("%d", &arr[i]);
+  
+  	//to sort array, we call function
+    mergeSort(arr, 0, arr_size - 1); 
+  
+    //printing final sorted array
+    printf("\nSorted array is \n"); 
+    for (i=0; i < arr_size; i++) 
+    	printf("%d ", arr[i]); 
+    printf("\n");
 
-void mergesort(int a[],int i,int j)
-{
-	int mid;
-
-	if(i<j)
-	{
-		mid=(i+j)/2;
-		mergesort(a,i,mid);		//left recursion
-		mergesort(a,mid+1,j);	//right recursion
-		merge(a,i,mid,mid+1,j);	//merging of two sorted sub-arrays
-	}
-}
-
-void merge(int a[],int i1,int j1,int i2,int j2)
-{
-	int temp[50];	//array used for merging
-	int i,j,k;
-	i=i1;	//beginning of the first list
-	j=i2;	//beginning of the second list
-	k=0;
-
-	while(i<=j1 && j<=j2)	//while elements in both lists
-	{
-		if(a[i]<a[j])
-			temp[k++]=a[i++];
-		else
-			temp[k++]=a[j++];
-	}
-
-	while(i<=j1)	//copy remaining elements of the first list
-		temp[k++]=a[i++];
-
-	while(j<=j2)	//copy remaining elements of the second list
-		temp[k++]=a[j++];
-
-	//Transfer elements from temp[] back to a[]
-	for(i=i1,j=0;i<=j2;i++,j++)
-		a[i]=temp[j];
-}
+    return 0; 
+} 
