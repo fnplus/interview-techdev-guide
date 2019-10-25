@@ -13,8 +13,8 @@ void tower_of_hanoi(int n, char from, char to, char temp) {
 }
 
 int main() {
-	int n; 	scanf("%d", &n);
-
+	int n;
+	scanf("%d", &n);
 	tower_of_hanoi(n, 'A', 'C', 'B');
 	return 0;
 }
