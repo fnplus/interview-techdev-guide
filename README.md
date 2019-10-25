@@ -58,7 +58,7 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 | [Perfect number](https://en.wikipedia.org/wiki/Perfect_number)                 | :octocat: | :octocat: | :octocat: | :octocat: |
 | [Magic number](https://en.wikipedia.org/wiki/Magic_number)                     |           |           |           | :octocat: |
 | [Polite number](https://en.wikipedia.org/wiki/Polite_number)                   |           | :octocat: | :octocat: | :octocat: |
-| [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)   |           | :octocat: | :octocat: |           |
+| [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)   | :octocat: | :octocat: | :octocat: |           |
 | [Modular exponentiation](https://en.wikipedia.org/wiki/Modular_exponentiation) | :octocat: | :octocat: | :octocat: | :octocat: |
 
 | Searching and Sorting                                                  | C         | CPP       | Java      | Python    |
