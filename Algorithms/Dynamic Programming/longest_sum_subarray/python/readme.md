@@ -1,0 +1,1 @@
+This is kadane algorithm which is intended to find out the max sum sub_array of a given array.
