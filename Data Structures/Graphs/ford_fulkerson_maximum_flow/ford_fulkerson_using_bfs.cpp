@@ -1,5 +1,5 @@
 #include <iostream>
-// Part of Cosmos by  OpenGenus Foundation //
+
 #include <limits.h>
 #include <string.h>
 #include <queue>
