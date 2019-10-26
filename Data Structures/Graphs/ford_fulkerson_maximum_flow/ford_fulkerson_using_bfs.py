@@ -1,6 +1,4 @@
-'''
-Part of Cosmos by OpenGenus Foundation
-'''
+
 
 from collections import defaultdict
   
