@@ -1,0 +1,3 @@
+Question:
+
+A forensic lab wants to know whether a deceased person’s DNA matches a set of known relatives. It is known that the closest relatives will have most of the DNA matching, and as the relationship becomes farther, the matching genes will be lesser. For this, the DNA pattern of the deceased is given and the DNA pattern of 10 likely relatives are given. Write a program to identify the family of the deceased.
