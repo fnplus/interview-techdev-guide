@@ -1,0 +1,1 @@
+This is a doubly linkedlist program made in c language, it uses the concept of structure,pointer,dynamic memory allocation etc.
