@@ -24,7 +24,7 @@ public class SortBubble
         }   
         System.out.println("The given array in ascending order is as follows : "); 
         System.out.println(a);  
-        for(i=0;i<a.length;i++)   
+        for(i=0;i<a.length;i++)//loop for printing array
 
         {     System.out.print(a[i] + " ");       }
     }
