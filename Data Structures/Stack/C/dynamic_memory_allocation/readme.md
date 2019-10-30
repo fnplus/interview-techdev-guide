@@ -1,0 +1,1 @@
+This is stack program implemented in c language it uses the concept of dynamic memory allocation in c,structure and pointers.
