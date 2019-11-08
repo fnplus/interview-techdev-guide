@@ -1,0 +1,32 @@
+//Insertion Sort
+#include<iostream.h>
+#include<conio.h>
+void insertion_sort(int[],int);
+void main()
+{clrscr();
+int const size=5;
+int a[5],i;
+cout<<"Enter values for array elements: "<<endl;
+for(i=0;i<size;i++)
+cin>>a[i];
+cout<<"Entered values of array elements before sorting are: "<<endl;
+for(i=0;i<size;i++)
+cout<<a[i]<<" ";
+insertion_sort(a,size);
+getch();
+}
+void insertion_sort(int a[],int size)
+{int temp,i,j;
+cout<<endl<<"Sorting array elements..."<<endl;
+for(i=1;i<size;i++)
+{temp=a[i];
+j=i-1;
+while((temp<a[j])&&(j>=0))
+{a[j+1]=a[j];
+j--;
+}
+a[j+1]=temp;}
+cout<<"The sorted values of array elements are: "<<endl;
+for(i=0;i<size;i++)
+cout<<a[i]<<" ";
+}
