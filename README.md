@@ -1,7 +1,7 @@
 # Welcome to the interview resources (footsteps) by FnPlus Community to crack your dream company :octocat:
 
 <p align="center">
-<img src="https://i.imgur.com/GOXelrQ.gif" width="600" height="600" center="true" />
+<img src="https://i.imgur.com/vQ1tm2w.gif" width="600" height="600" center="true" />
 </p>
 
 This repository is a part of [HacktoberFest-an event organised by DigitalOcean](https://hacktoberfest.digitalocean.com/). 
