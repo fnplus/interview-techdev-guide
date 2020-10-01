@@ -1,0 +1,102 @@
+#include<iostream.h>
+#include<conio.h>
+#include<process.h>
+struct node
+{int info;
+node*next;}*newptr,*start=NULL,*rear=NULL,*save;
+
+node* create_node(int);
+void ins_beg(node*);
+void ins_end(node*);
+void del_beg();
+void disp(node*);
+
+void main()
+{system("cls");
+int choice=-1,data;
+
+while(choice!='5')
+{cout<<"Enter operation to be performed on data structure: \n";
+cout<<"1.Insert at beginning(LIFO)\n"<<"2.Insert at end(FIFO)\n"<<"3.Delete from beginning\n"<<"4.Display Data Structure\n"<<"5.Exit"<<endl;
+cin>>choice;
+switch(choice)
+{
+case 1:
+cout<<"Insert information:\n";
+cin>>data;
+newptr=create_node(data);
+if(newptr==NULL)
+{cout<<"Could not create node! Aborting!";
+exit(0);}
+else
+{ins_beg(newptr);}
+break;
+case 2:
+cout<<"Insert information:\n";
+cin>>data;
+newptr=create_node(data);
+if(newptr==NULL)
+{cout<<"Could not create node!Aborting!";
+exit(0);}
+else
+{ins_end(newptr);}
+break;
+case 3:
+del_beg();
+break;
+case 4:
+cout<<"Displaying from Start:\n";
+disp(start);
+break;
+case 5:
+system("pause");
+exit(0);
+};
+};
+getch();
+}
+node*create_node(int inf)
+{node*ptr;
+ptr=new node;
+ptr->info=inf;
+ptr->next=NULL;
+return ptr;
+}
+void ins_beg(node*ptr)
+{
+if(start==NULL)
+{
+start=ptr;
+}
+else
+{save=start;
+start=ptr;
+start->next=save;
+}
+}
+void ins_end(node*ptr)
+{
+if(start==NULL)
+{start=rear=ptr;}
+else
+{rear->next=ptr;
+rear=ptr;
+}
+}
+void del_beg()
+{if(start==NULL)
+{cout<<"Underflow!Aborting!";
+system("pause");
+exit(0);}
+else
+{node*ptr=start;
+start=start->next;
+delete ptr;
+}}
+void disp(node*ptr)
+{while(ptr!=NULL)
+{cout<<ptr->info<<"->";
+ptr=ptr->next;
+}
+cout<<"!!!\n";
+}
