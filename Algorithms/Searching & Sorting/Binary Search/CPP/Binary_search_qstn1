@@ -1,0 +1,68 @@
+Given the number k. Each student council must consist of k students. Important rule: each council should be composed of students from different groups. That is, no two students from the same group can be in the same council.
+
+Of course, each student should be in no more than one council (it is possible that some students are not included in any).
+
+An array a[1..n] is given, where a[i] is the number of students in the i-th group. What is the maximum number of councils can be formed?
+
+Input
+The first line contains integer k (2≤k≤20). The second line contains integer n (k≤n≤50). Next lines contain elements a[1],a[2],…,a[n] (1≤a[i]≤109).
+
+**********CODE*****************
+-logialgo
+Jatin Kasera
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
+bool good(ll a[],ll n,ll k,ll x)
+{
+    ll slots=x*k,i;
+    for(i=0;i<n;i++)
+    {
+        slots-=min(a[i],x);
+    }
+    //cout<<slots<<endl;
+    if(slots<=0)
+    return 1;
+    return 0;
+}
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    ll t=1;
+    while(t--)
+    {
+      ll n,ans=0,i,k;
+    //   string s,w;
+    //   cin>>s>>w;
+    //   n=s.length();
+      cin>>k>>n;
+      ll a[n];
+      for(i=0;i<n;i++)
+      cin>>a[i];
+      ll l=0,r=50*pow(10ll,9ll),mid;
+     // cout<<n<<" "<<m;
+      while(l<=r)
+      {   //cout<<l<<" "<<r<<" ";
+          mid=(l+r)/2;
+          //cout<<a[mid]<<endl;
+          if(good(a,n,k,mid))
+          {
+              l=mid+1;
+              ans=mid;
+          }
+          else
+          {
+              r=mid-1;
+          }
+          
+      }
+      //cout<<l<<" "<<r<<" ";
+      cout<<ans<<" ";
+      
+   
+    }
+ 
+	return 0;
+}
