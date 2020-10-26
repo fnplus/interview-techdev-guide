@@ -7,8 +7,8 @@ l=[[1,2,3,4],
     [13,14,15,16]]
 
 N = 4
-x=N-1
-y=x
+x = N-1
+y = x
 
 #for square matrix 
 for i in range(0, x):
@@ -18,9 +18,7 @@ for i in range(0, x):
         l[y][i], l[i][j] = l[i][j], l[y][i]
         y -= 1
     x -= 1
-    y=x
-
-
-
+    y = x
+ 
 for i in l:
     print(i)

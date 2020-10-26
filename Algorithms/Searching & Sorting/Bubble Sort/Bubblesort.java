@@ -1,33 +1,65 @@
-public class BubbleSort {
-    public static void BubbleSort( int [ ] no )
-    {
-        int j;
-        boolean flag = true;
-        int temp;
+import java.util.*;
 
-        while ( flag )
-        {
-            flag= false;
-            for( j=0;  j < no.length -1;  j++ )
-            {
-                if ( no[ j ] < no[j+1] )
-                {
-                    temp = no[ j ];
-                    no[ j ] = no[ j+1 ];
-                    no[ j+1 ] = temp;
-                    flag = true;
-                }
-            }
-        }
+public class bubbleSort
+{
 
-        for(int p = 0 ;p<no.length;p++)
-        {
-            System.out.println(" "+no[p]);
-        }
-    }
+	public int[] input(int a[])			//Input array elements
+	{
+		Scanner sc = new Scanner(System.in);
+		int n =a.length;
 
-    public static void main(String[] args) {
-        int[] no = {10,20,30,70,90,02,03,05,65,72,23};
-        BubbleSort(no);
-    }
+		System.out.print("Enter Elements to array : ");
+		for(int i=0;i<n;i++)
+			a[i] = sc.nextInt();
+
+		return a;
+
+	}
+
+	public int[] sort(int a[])		// Bubble sort array ----- complexity O(n^2)
+	{
+	int n = a.length;
+
+	for(int i=0;i<n;i++)
+				for(int j=i;j<n;j++)
+				{
+					if(a[i] > a[j])
+					{
+						int temp = a[i];
+						a[i] = a[j];
+						a[j] = temp;
+					}
+				}
+
+	 return a;
+	}
+
+	public void display(int a[])    	// Display sorted array
+	{
+		int n = a.length;
+
+		System.out.println("Sorted Array");
+		for(int i=0;i<n;i++)
+			System.out.print(" " + a[i]);
+		System.out.println();
+	}
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter elements in array : ");
+		int n = sc.nextInt();
+		int a[] = new int[n];
+
+		
+		//sorting
+
+		bubbleSort bSort = new bubbleSort();
+
+		a = bSort.input(a);				// Accept input from user
+		a = bSort.sort(a);				// BubbleSort the array
+		bSort.display(a);				// Display sorted array
+
+	}
 }

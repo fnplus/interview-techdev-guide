@@ -9,17 +9,19 @@
 N = int(input('Enter size of list: '))
 
 print('Enter elements in list: ')
-l = [int(x) for x in input().split()]
+l = [int(x) for x in input().split(" ")]
 
 K = int(input('kth element to search: '))
-x = max(l)+1
-ch = [0] *x
+x = max(l) + 1
+ch = [0] * x
 
 for j in range(0, N):
     ch[l[j]] += 1
+    
 for j in range(0, len(ch)):
     if ch[j] >= 1:
         K -= 1
+        
     if K == 0:
         print('Element is: ', j)
         break

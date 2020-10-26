@@ -1,26 +1,29 @@
+// Java code for linearly searching x in arr[]. If x 
+// is present then return its location, otherwise 
+// return -1 
 
-public class LinearSearch {
+class GFG 
+{ 
+public static int search(int arr[], int x) 
+{ 
+	int n = arr.length; 
+	for(int i = 0; i < n; i++) 
+	{ 
+		if(arr[i] == x) 
+			return i; 
+	} 
+	return -1; 
+} 
 
-	static int search (int arr[], int x) {
-		for (int i=0; i < arr.length; i++) {
-			if (arr[i] == x) {
-				return i; 
-			}
-		}
-		
-		return -1;
-	}
+public static void main(String args[]) 
+{ 
+	int arr[] = { 2, 3, 4, 10, 40 }; 
+	int x = 10; 
 	
-	public static void main (String args[]) {
-		int testArr[] = {1, 9, 8, 3, 0, 2, 5, 7, 4, 6};
-		int testValue = 6;
-		
-		int position = search(testArr, testValue);
-		if (position == -1) {
-			System.out.println("Element was not found in the array");
-		} else {
-			System.out.println("Element found at position: " + position);
-		}
-	}
-    
-}
+	int result = search(arr, x); 
+	if(result == -1) 
+		System.out.print("Element is not present in array"); 
+	else
+		System.out.print("Element is present at index " + result); 
+} 
+} 

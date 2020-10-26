@@ -10,9 +10,9 @@ def fun(curr, idx, A, temp):
 		print()
 		return
 
-	fun(curr+1, idx , A, temp) # Calling function without taking current element
+	fun(curr + 1, idx, A, temp) # Calling function without taking current element
 	temp[idx] = A[curr]
-	fun(curr+1, idx+1, A ,temp)  # Calling function after taking current element
+	fun(curr + 1, idx + 1, A, temp)  # Calling function after taking current element
 
 def main():
 
