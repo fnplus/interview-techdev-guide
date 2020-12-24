@@ -8,12 +8,14 @@ using namespace std;
 
 //SEFIRA KARINA
 
+//node is declared
 struct Node
 {
 	int number;
 	struct Node *next;
 } *head, * tail, *temp;
 
+//function to delete node
 void deleteNode()
 {
     Node *ptrNode;
@@ -30,6 +32,7 @@ void deleteNode()
     }
 }
 
+//function to print a node
 void printNode()
 {
 
@@ -43,6 +46,8 @@ void printNode()
 	cout<< endl;
 
 }
+
+//function to add a new node
 void addNode(int x)
 {
 	temp = new Node;
@@ -59,6 +64,7 @@ void addNode(int x)
 	}
 }
 
+//driver function
 int main(void)
 {
     head=tail=NULL;
