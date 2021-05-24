@@ -26,7 +26,7 @@ class Stack {
 		if (top < 0) { 
 			System.out.println("Stack Underflow"); 
 			return 0; 
-		} lse { 
+		} else { 
 			int x = a[top--]; 
 			return x; 
 		} 
