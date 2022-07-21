@@ -124,6 +124,7 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 * [CodeSignal](https://codesignal.com)
 * [CodeKata](http://codekata.com/)
 * [Firecode](https://www.firecode.io/)
+* [Scaler](https://www.scaler.com/topics/)
 
 ### Video Lectures:
 
