@@ -166,6 +166,7 @@ See [Extended Contributing Guidelines](https://github.com/fnplus/interview-techd
 * [TestDome](https://www.testdome.com/)
 * [FreeCodeCamp](https://www.freecodecamp.com/) *"Learn to code and help nonprofits"*
 * [Dynamic Programming Practice Problems](https://people.cs.clemson.edu/~bcdean/dp_practice/)
+* [Data Structures and Algorithms](https://www.scaler.com/topics/data-structures/)
 
 ### Videos:
 
